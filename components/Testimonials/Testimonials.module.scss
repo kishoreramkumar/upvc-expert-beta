@@ -1,0 +1,82 @@
+@import "../../theme/theme";
+
+.TestimonialsContainer {
+	background: #f5f5f5;
+	width: 100%;
+	padding: 3rem 0;
+	.TestimonialsSliderBlock {
+		width: 65%;
+		margin: 0 auto;
+		@media (max-width: 767px) {
+			width: 100%;
+			padding: 0 2rem;
+		}
+		.TestimonialsSliderSingleBlock {
+			width: 17.3rem !important;
+			background-color: white;
+			padding: 2rem;
+			border-radius: 14px;
+			margin-top: 5.2rem;
+			display: flex !important;
+			flex-direction: column;
+			line-height: 1.5rem;
+			font-size: 1.1rem;
+			font-weight: 400;
+			align-items: center;
+			position: relative;
+			@media (max-width: 767px) {
+				width: 100% !important;
+				margin-top: 1.2rem;
+			}
+			.TestimonialsSliderClientName {
+				padding-top: 8%;
+				color: $primary;
+			}
+			.TestimonialsSliderCountLabel {
+				position: absolute;
+				right: 0;
+				bottom: 0;
+				font-size: 3rem;
+				padding: 0.7rem;
+				color: #333;
+				opacity: 0.2;
+				@media (max-width: 767px) {
+					display: none;
+				}
+			}
+			.TestimonialsSliderClientLabel {
+				color: #777;
+			}
+		}
+	}
+	:global(.slick-current) {
+		& + div {
+			div {
+				div:last-child {
+					border-radius: 14px;
+					background-color: $primary;
+					position: absolute;
+					top: -32px;
+					color: white;
+					.TestimonialsSliderClientName,
+					.TestimonialsSliderClientLabel {
+						color: white;
+					}
+				}
+			}
+		}
+		@media (max-width: 767px) {
+			div {
+				div:last-child {
+					border-radius: 14px;
+					background-color: $primary;
+					color: white;
+					.TestimonialsSliderClientName,
+					.TestimonialsSliderClientLabel {
+						color: white;
+					}
+				}
+			}
+		}
+	}
+}

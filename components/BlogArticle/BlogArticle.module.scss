@@ -1,0 +1,36 @@
+.blogArticleContainer {
+  padding-right: 1.5rem;
+  .blogArticleBlock {
+    display: flex;
+    flex-direction: column;
+    padding-left: 2%;
+    .blogTitle {
+      font-size: 1.7rem;
+      margin: 2% 0;
+    }
+    .blogDate {
+      font-size: 0.8rem;
+      margin-bottom: 2%;
+    }
+  }
+  .blogContent {
+    padding-top: 1rem;
+    line-height: 1.6;
+    h1, h2, h3, h4, h5, h6 {
+      margin: 0
+    }
+  }
+  .blogImage {
+    height: auto;
+    width: 100%;
+    position: relative;
+    min-height: 10rem;
+    img {
+      height: 100%;
+      width: 100%;
+    }
+  }
+  @media (max-width: 767px) {
+    padding-right: 0;
+  }
+}

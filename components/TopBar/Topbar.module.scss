@@ -1,0 +1,27 @@
+@import "../../theme/theme";
+
+.TopBarWrapper {
+  background-color: $primary;
+  padding: 0.2rem 8%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  .ISOWrapper {
+    display: flex;
+    align-items: center;
+    .ISOImageWrapper {
+      height: 1.8rem;
+      width: 1.8rem;
+      margin-right: 0.5rem;
+    }
+    .ISOTitle {
+      font-size: 0.8rem;
+      color: $secondary;
+      margin: 0.5rem 0;
+    }
+  }
+  .SocialIconsList {
+    .SocialIconWrapper {
+    }
+  }
+}

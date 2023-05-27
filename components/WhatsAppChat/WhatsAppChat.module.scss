@@ -1,0 +1,11 @@
+.WhatsAppIconWrapper {
+  position: fixed;
+  bottom: 40px;
+  right: 50px;
+  height: 65px;
+  width: 65px;
+  cursor: pointer;
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+}

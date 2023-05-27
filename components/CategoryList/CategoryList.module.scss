@@ -1,0 +1,28 @@
+@import "../../theme/theme";
+
+.categoryContainer {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  .categoryLabel {
+    font-size: 1.2rem;
+  }
+  .categoryBlock {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0.5rem;
+
+    .categoryChip {
+      font-size: 0.8rem;
+      padding: 0.4rem 0.5rem 0.4rem;
+      margin: 0.5rem 0.5rem 0 0;
+      line-height: 1;
+      background-color: $primary;
+      color: $secondary;
+      border-radius: 4px;
+      line-height: 1;
+      cursor: pointer;
+      text-transform: capitalize;
+    }
+  }
+}

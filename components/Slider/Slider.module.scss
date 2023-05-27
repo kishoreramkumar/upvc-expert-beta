@@ -1,0 +1,23 @@
+.sliderWrapper {
+  display: flex !important;
+  :global(.slick-list) {
+    width: 100%;
+  }
+  :global(.slick-arrow) {
+    @media screen and (max-width: 767px) {
+      display: none !important;
+      &:global(.slick-next) {
+        position: absolute;
+        right: -1rem;
+        top: 50%;
+        z-index: 1;
+      }
+      &:global(.slick-prev) {
+        position: absolute;
+        left: -1rem;
+        top: 50%;
+        z-index: 1;
+      }
+    }
+  }
+}

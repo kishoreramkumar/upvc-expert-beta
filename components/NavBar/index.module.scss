@@ -1,0 +1,25 @@
+// NavBar.scss
+
+@import "../../theme/theme";
+
+.NavBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 5px 0;
+  color: $primary-dark;
+  width: 100%;
+  max-width: 70%;
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .active {
+    color: $primary;
+  }
+  @media (max-width: 768px) {
+    display: none;
+  }
+}

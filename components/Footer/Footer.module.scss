@@ -1,0 +1,67 @@
+@import '../../theme/theme';
+.FooterContainer {
+	display: flex;
+	align-items: flex-start;
+	background-color: black;
+	color: white;
+	justify-content: space-around;
+	padding: 7% 10%;
+	width: 100%;
+	padding-bottom: 100px;
+	@media (max-width: 767px) {
+		flex-direction: column;
+	}
+	.FooterWithCompanyLabelBlock {
+		margin-top: 1rem;
+	}
+	.FooterWithCompanyLabelBlock,
+	.FooterWithQuickLinks,
+	.FooterWithContactUs,
+	.FooterWithImpLinks {
+		display: flex;
+		flex-direction: column;
+		margin-top: 3rem;
+	}
+	.FooterWithCompanyLabelBlock {
+		.FooterWithCompanyCopyRights {
+			line-height: 26px;
+			margin-top: 0.5rem;
+		}
+		@media (max-width: 767px) {
+			margin: 0 auto;
+		}
+	}
+	.FooterWithQuickLinksBlock,
+	.FooterWithContactUsBlock,
+	.FooterWithImpLinksBlock {
+		display: flex;
+		flex-direction: column;
+		margin-top: 1rem;
+	}
+	.FooterSectionLabel {
+		font-size: 0.9rem;
+		margin-top: 0.6rem;
+	}
+	.FooterSectionTitle {
+		font-size: 1.2rem;
+		position: relative;
+	}
+	.FooterSectionTitle::before {
+		position: absolute;
+		left: 0;
+		content: '';
+		width: 30px;
+		height: 2px;
+		background-color: $primary;
+		margin-top: 1.6rem;
+	}
+	.FooterSectionTitle::after {
+		content: '';
+		position: absolute;
+		left: 35px;
+		width: 10px;
+		height: 2px;
+		background-color: #fff;
+		margin-top: 1.6rem;
+	}
+}

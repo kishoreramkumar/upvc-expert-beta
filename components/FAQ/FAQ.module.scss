@@ -1,0 +1,19 @@
+@import "../../theme/theme";
+
+.faqWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 85%;
+  width: 600px;
+  padding: 2rem 0rem 2rem;
+  .showMore {
+    color: $primary;
+    margin-top: 1.5rem;
+    cursor: pointer;
+  }
+  .faqAccordianWrapper {
+    padding: 2rem 0 0;
+  }
+}

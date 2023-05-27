@@ -1,0 +1,19 @@
+.v_button {
+    border-radius: 3px;
+    color: #fff;
+    padding: 5px 15px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    outline: none;
+  
+    &.disabled {
+      pointer-events: none;
+      background: #cfcfcf;
+    }
+  }
+  

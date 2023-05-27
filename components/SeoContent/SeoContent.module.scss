@@ -1,0 +1,20 @@
+@import "../../theme/theme";
+
+.SeoContentWrapper {
+  padding: 2rem 1.5rem;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+
+  .SeoContentContent {
+    font-size: 1rem;
+  }
+  .SeoContentExpandContent {
+    font-size: 1rem;
+  }
+  .SeoContentShowMore {
+    color: $primary;
+    margin: 1rem 0;
+    text-align: center;
+  }
+}

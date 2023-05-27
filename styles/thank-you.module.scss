@@ -1,0 +1,27 @@
+@import "../theme/theme";
+
+.thankyouWrapper{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .WhyChooseUsSingleImg{
+        width: 15rem;
+    }
+    .thanksText{
+        font-size: 4rem;
+        @media (max-width: 768px) {
+            font-size: 2rem;
+        }
+    }
+    .backElement{
+        margin-top: 1rem;
+    .backButton{
+        padding: 0.5rem 1rem;
+        background-color: $primary;
+    }
+}
+}
+

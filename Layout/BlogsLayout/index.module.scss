@@ -1,0 +1,69 @@
+@import "../../theme/theme";
+
+.BlogPageWrapper {
+  flex: 1;
+  display: flex;
+  width: 100%;
+  background: #acaca51f;
+  color: $primary-dark;
+  flex-direction: column;
+
+  a {
+    color: inherit;
+  }
+
+  .BlogPageHeader {
+    display: flex;
+    background-color: white;
+
+    .BlogPageBannerWrapper {
+      width: 100%;
+    }
+    .BlogPageBanner {
+      width: 100%;
+      height: 12rem;
+      border-bottom: 1px solid lightgrey;
+      position: relative;
+      margin-left: auto;
+    }
+    @media (max-width: 767px) {
+      flex-direction: column;
+      align-items: center;
+
+      .BlogPageBanner {
+        width: 100%;
+        margin-left: unset;
+      }
+    }
+  }
+
+  .Content {
+    display: flex;
+    max-width: 1200px;
+    padding: 1.5rem;
+    background-color: white;
+    margin: auto;
+    width: 100%;
+    @media (max-width: 767px) {
+      display: flex;
+      padding: 1rem;
+      flex-wrap: wrap;
+    }
+  }
+}
+
+.blogLeftBlock {
+  width: 70%;
+  @media (max-width: 767px) {
+    width: 100%;
+  }
+}
+.blogRightBlock {
+  width: 30%;
+  border-left: 1px solid lightgrey;
+  padding: 1rem 1rem;
+  @media (max-width: 767px) {
+    width: 100%;
+    border: unset;
+  }
+}

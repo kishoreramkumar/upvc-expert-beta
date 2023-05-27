@@ -1,0 +1,94 @@
+@import "../../theme/theme";
+.SectionTitleWrapper {
+  width: 100%;
+  margin: 0.5rem 0 1rem;
+
+  .SectionTitle {
+    // @keyframes float {
+    //   0% {
+    //     transform: translatey(0px);
+    //   }
+    //   50% {
+    //     transform: translatey(-4px);
+    //   }
+    //   100% {
+    //     transform: translatey(0px);
+    //   }
+    // }
+    // transform: translatey(0px);
+    // animation: float 1s infinite;
+
+    padding: 0.5rem 0 0.75rem;
+    font-size: 2rem;
+    font-weight: 500;
+    margin: 0;
+    text-align: center;
+    position: relative;
+    // background-color: $primary-dark;
+
+    //animation starts
+
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    // animation: mymove 4s infinite;
+    background-image: linear-gradient(
+      to right,
+      $primary-dark 50%,
+      $primary 50%
+    );
+
+    @media screen and (max-width: 500px) {
+      font-size: 1.5rem;
+    }
+    @keyframes mymove {
+      0% {
+        background-image: linear-gradient(
+          to right,
+          $primary 50%,
+          $primary-dark 50%
+        );
+      }
+      33% {
+        background-image: linear-gradient(
+          to right,
+          $primary-dark 50%,
+          $primary 50%
+        );
+      }
+      66% {
+        background-image: linear-gradient(
+          to right,
+          $primary 50%,
+          $primary-dark 50%
+        );
+      }
+      100% {
+        background-image: linear-gradient(
+          to right,
+          $primary-dark 50%,
+          $primary 50%
+        );
+      }
+    }
+    //Animation ends
+    &::after {
+      bottom: 0;
+      position: absolute;
+      content: "";
+      background-color: $primary;
+      width: 50px;
+      height: 3px;
+      left: calc(50% - 50px);
+    }
+    &::before {
+      bottom: 0;
+      position: absolute;
+      content: "";
+      background-color: $primary-dark;
+      width: 50px;
+      height: 3px;
+      right: calc(50% - 50px);
+    }
+  }
+}

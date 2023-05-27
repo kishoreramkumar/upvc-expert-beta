@@ -1,0 +1,96 @@
+@import "../../theme/theme";
+
+$tooltip-color: $primary;
+$tooltip-text-color: $secondary;
+
+.tooltip {
+  position: relative;
+}
+
+.tooltipTrigger {
+  display: inline-block;
+}
+
+.tooltipBubble {
+  min-width: 120px;
+  width: fit-content;
+  position: absolute;
+  z-index: 100;
+  &::after {
+    content: "";
+    position: absolute;
+  }
+}
+
+.tooltipTop {
+  bottom: 100%;
+  left: 50%;
+  padding-bottom: 9px;
+  transform: translateX(-50%);
+
+  // &::after {
+  //   border-left: 9px solid transparent;
+  //   border-right: 9px solid transparent;
+  //   border-top: 9px solid $tooltip-color;
+  //   bottom: 0;
+  //   left: 50%;
+  //   transform: translateX(-50%);
+  // }
+}
+
+.tooltipBottom {
+  top: 100%;
+  left: 50%;
+  padding-top: 9px;
+  transform: translateX(-50%);
+
+  // &::after {
+  //   border-left: 9px solid transparent;
+  //   border-right: 9px solid transparent;
+  //   border-bottom: 9px solid $tooltip-color;
+  //   top: 0;
+  //   left: 50%;
+  //   transform: translateX(-50%);
+  // }
+}
+
+.tooltipLeft {
+  top: 50%;
+  right: 100%;
+  padding-right: 9px;
+  transform: translateY(-50%);
+
+  // &::after {
+  //   border-left: 9px solid $tooltip-color;
+  //   border-top: 9px solid transparent;
+  //   border-bottom: 9px solid transparent;
+  //   top: 50%;
+  //   right: 0;
+  //   transform: translateY(-50%);
+  // }
+}
+
+.tooltipRight {
+  top: 50%;
+  left: 100%;
+  padding-left: 9px;
+  transform: translateY(-50%);
+
+  // &::after {
+  //   border-right: 9px solid $tooltip-color;
+  //   border-top: 9px solid transparent;
+  //   border-bottom: 9px solid transparent;
+  //   top: 50%;
+  //   left: 0;
+  //   transform: translateY(-50%);
+  // }
+}
+
+.tooltipMessage {
+  background: $tooltip-color;
+  border-radius: 3px;
+  color: $tooltip-text-color;
+  font-size: 0.75rem;
+  line-height: 1.4;
+  text-align: center;
+}

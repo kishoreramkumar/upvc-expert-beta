@@ -1,0 +1,46 @@
+@import "../theme/theme";
+
+.Header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.8rem 4%;
+  width: 100%;
+  border-bottom: 1px solid lightgrey;
+
+  color: $primary-dark;
+  background-color: $secondary;
+  text-transform: uppercase;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  .contactNo {
+    display: none;
+  }
+  @media (max-width: 768px) {
+    border-bottom: 1px solid lightgray;
+    padding-left: 0.5rem;
+    padding-right: 2rem;
+    .contactNo {
+      font-size: 1rem;
+      padding-left: 0.5rem;
+      white-space: nowrap;
+      justify-content: flex-end;
+      align-items: flex-end;
+      display: flex;
+    }
+  }
+  .LogoIcon {
+    cursor: pointer;
+    padding: 0 1rem;
+    height: 3.5rem;
+    width: 15rem;
+    position: relative;
+    border-radius: 12px;
+    @media (max-width: 767px) {
+      width: 70%;
+      padding: 0;
+    }
+  }
+}

@@ -1,0 +1,76 @@
+@import "../../theme/theme";
+
+.packageContainer {
+  background-color: #f2f2f2;
+  width: 100%;
+  padding: 3rem 0;
+  .packageWrapper {
+    margin: 0 auto;
+    margin-top: 4rem;
+    width: 100%;
+    @media only screen and (max-width: 900px) {
+      margin: auto;
+      width: 100%;
+      padding: 0 1rem;
+    }
+    .packagesTab {
+      background: #eaeaea;
+      display: flex;
+      justify-content: flex-start;
+      border-radius: 10px;
+      color: #333;
+      overflow-x: auto;
+      scrollbar-width: none;
+      width: 74%;
+      margin: 0 auto;
+      @media only screen and (max-width: 768px) {
+        width: 100%;
+      }
+      :hover {
+        background-color: $primary;
+        color: white;
+      }
+      .tab {
+        padding: 1.5rem;
+        width: 100%;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        white-space: nowrap;
+        @media only screen and (max-width: 768px) {
+          padding: 1rem;
+          min-width: 8.5rem;
+          height: 3rem;
+        }
+      }
+      .activeTab {
+        background-color: $primary;
+        color: white;
+      }
+      .activeTabBorder {
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+      }
+    }
+    .packagesTab::-webkit-scrollbar {
+      display: none;
+    }
+    .tabsMain {
+      display: flex;
+      flex-wrap: wrap;
+      width: 75%;
+      margin: 0 auto;
+      .tabCard {
+        margin: 0 0.5rem;
+        width: 23%;
+        @media only screen and (max-width: 768px) {
+          width: 100%;
+        }
+      }
+      @media only screen and (max-width: 768px) {
+        width: 100%;
+      }
+    }
+  }
+}

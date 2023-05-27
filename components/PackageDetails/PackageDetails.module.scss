@@ -1,0 +1,39 @@
+.packageDetailsWrapper {
+  padding: 2rem;
+  margin: 0 auto;
+  width: 80%;
+  :global(.slick-slider) {
+    display: flex;
+    outline: none !important;
+    :global(.slick-arrow) {
+      @media (max-width: 767px) {
+        display: flex !important;
+      }
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    margin: 0;
+    width: 100%;
+  }
+  .packageDetailsWrapperMain {
+    // display: flex;
+    // overflow: scroll;
+
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+    .stepperWrappper {
+      display: none;
+      margin: auto;
+      @media screen and (max-width: 700px) {
+        display: flex;
+      }
+    }
+    .packageDetailsContainer {
+      margin-right: 1rem;
+      padding-top: 1rem;
+    }
+  }
+}

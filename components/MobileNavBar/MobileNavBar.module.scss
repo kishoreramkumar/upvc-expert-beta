@@ -1,0 +1,13 @@
+@import "../../theme/theme";
+.NavBar {
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+}
+
+.NavButton {
+  width: 100%;
+  color: $primary-dark;
+  padding: 1rem;
+  border-bottom: 1px solid $primary-dark;
+}

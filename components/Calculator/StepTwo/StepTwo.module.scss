@@ -1,0 +1,77 @@
+@import "../../../theme/theme";
+
+.StepTwoWrapper {
+  max-width: 98%;
+  width: 800px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid $primary;
+  border-radius: 5px;
+  margin-top: 3rem;
+
+  .header {
+    font-size: 1.1rem;
+    background-color: $primary-light;
+    padding: 0.5rem 0.5rem;
+    color: $primary;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  .content {
+    padding: 0 1rem;
+    width: 100%;
+    .packageDetailsWrapperMain {
+      display: flex;
+      width: 100%;
+      overflow: scroll;
+      padding: 1rem 0 1rem;
+    }
+    .packageDetailsContainer {
+      width: 100%;
+      margin: 0 1rem;
+      min-width: 35%;
+      @media screen and (max-width: 768px) {
+        min-width: 60%;
+      }
+      @media screen and (max-width: 550px) {
+        min-width: 80%;
+      }
+      @media screen and (max-width: 450px) {
+        min-width: 85%;
+        margin: 0 0.5rem;
+      }
+    }
+  }
+
+  .footer {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    background-color: $primary-light;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    .button {
+      background-color: $primary;
+      border-radius: 4px;
+      transition: all 300ms ease;
+      padding: 0.4rem 1.5rem;
+      font-size: 0.9rem;
+      line-height: 0.9rem;
+      height: unset;
+    }
+    .disabledButton {
+      background-color: lightgray;
+      border-radius: 4px;
+      transition: all 300ms ease;
+      padding: 0.4rem 1.5rem;
+      font-size: 0.9rem;
+      line-height: 0.9rem;
+      height: unset;
+      color: $primary-dark;
+    }
+  }
+}

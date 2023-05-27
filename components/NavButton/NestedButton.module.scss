@@ -1,0 +1,29 @@
+@import '../../theme/theme';
+
+.NestedButton {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	text-align: left;
+	background-color: $primary;
+	color: $secondary;
+	height: 100%;
+	min-width: 12rem;
+	cursor: pointer;
+	&:not(:last-child) {
+		border-bottom: 1px solid $secondary;
+	}
+	&:hover {
+		background-color: $primary-dark;
+	}
+
+	.Label {
+		font-size: 0.9rem;
+		font-weight: 300;
+		letter-spacing: 1.5px;
+		width: 100%;
+		text-transform: capitalize;
+		border-left: 0.4rem solid $primary;
+		padding: 0.6rem 1rem;
+	}
+}

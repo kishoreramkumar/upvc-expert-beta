@@ -1,0 +1,36 @@
+@import "../../theme/theme";
+
+@keyframes jump {
+  0% {
+    transform: translatey(0px);
+  }
+  15% {
+    transform: translatey(-10px);
+  }
+  30% {
+    transform: translatey(0px);
+  }
+  45% {
+    transform: translatey(0px);
+  }
+  60% {
+    transform: translatey(-10px);
+  }
+  75% {
+    transform: translatey(0px);
+  }
+}
+.button {
+  background-color: $primary;
+  border-radius: 4px;
+  transition: all 300ms ease;
+  padding: 0.8rem 1.5rem;
+  font-size: 1.1rem;
+  line-height: 0.9rem;
+  height: unset;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  animation: jump 1.5s infinite;
+  will-change: transform;
+  animation-delay: 1s;
+}

@@ -1,0 +1,20 @@
+.expertiseContainer {
+  padding: 2rem 0;
+  max-width: 1024px;
+  .ExpertiseWrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 4rem 0 3rem;
+    padding-bottom: 1rem;
+    .ExpertiseList {
+      display: flex;
+      width: 90vw;
+      justify-content: space-evenly;
+      // max-width: 1100px;
+      @media (max-width: 767px) {
+        flex-wrap: wrap;
+      }
+    }
+  }
+}

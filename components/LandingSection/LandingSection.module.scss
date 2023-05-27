@@ -1,0 +1,306 @@
+@import "../../theme/theme";
+
+.LandingSectionWrapper {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background-color: $primary-light;
+  max-width: 1800px;
+  margin: auto;
+
+  // Dimensions
+  $dot-size: 50px;
+  $dot-space: 200px;
+  // background: linear-gradient(
+  //       90deg,
+  //       $primary-light ($dot-space - $dot-size),
+  //       transparent 1%
+  //     )
+  //     center,
+  //   linear-gradient($primary-light ($dot-space - $dot-size), transparent 1%)
+  //     center,
+  //   white;
+  background-color: $primary-light;
+  background-size: $dot-space $dot-space;
+  .BannerWrapper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    span {
+      width: 100% !important;
+    }
+    .mobileBanner {
+      display: none;
+    }
+    .banner {
+      width: 2560px;
+      height: 600px;
+      max-width: 100%;
+    }
+    @media screen and (max-width: 767px) {
+      .banner {
+        display: none;
+      }
+      .mobileBanner {
+        display: unset;
+        width: 768px;
+        height: 200px;
+        max-width: 100%;
+      }
+    }
+  }
+  .LandingScreenContent {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    overflow: hidden;
+    .attributeLabel {
+      width: 10rem;
+      padding-right: 1rem;
+      @media screen and (max-width: 400px) {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+      }
+      .attributeCounts {
+        font-size: 1.5rem;
+        color: $primary;
+        font-weight: 500;
+        padding-left: 0.5rem;
+      }
+      .attributeCountWrapper {
+        display: flex;
+        align-items: flex-end;
+      }
+      .attributeCountLabel {
+        margin-top: 0.5rem;
+        font-size: 1rem;
+        @media screen and (max-width: 400px) {
+          width: 5rem;
+        }
+      }
+      @media (max-width: 767px) {
+        border: none;
+        width: 100%;
+        padding: 0;
+      }
+      @media (max-width: 568px) {
+        .attributeCounts {
+          font-size: 1.2rem;
+        }
+        .attributeCountWrapper {
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+        }
+        .attributeCountLabel {
+          margin-top: 0.5rem;
+          font-size: 0.8rem;
+          text-align: center;
+        }
+      }
+    }
+
+    .LeftSectionWrapper {
+      padding: 4rem 2rem 4rem 4rem;
+      width: 45%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      .LeftSectionBg {
+        transform: translate(-25%, 0) scale(1.5);
+        position: absolute;
+        left: 0%;
+        right: 0%;
+        width: 45%;
+        height: 100%;
+        border-radius: 50%;
+        z-index: 0;
+      }
+
+      .title {
+        color: $primary-dark;
+        font-size: 3rem;
+        margin: 0;
+        z-index: 1;
+
+        span {
+          color: $primary;
+        }
+      }
+      .subTitle {
+        font-size: 1.25rem;
+        margin: 1.8rem 0;
+        z-index: 1;
+      }
+      .footer {
+        z-index: 1;
+        order: 1;
+      }
+      .PrimaryColor {
+        color: $primary;
+        opacity: 0.9;
+      }
+      .Button {
+        background-color: #f34e00;
+        transition: all 300ms ease;
+        font-size: 1rem;
+        padding: 1rem 2.5rem;
+      }
+    }
+
+    @keyframes jump {
+      0% {
+        transform: translatey(0px);
+      }
+      15% {
+        transform: translatey(-6px);
+      }
+      30% {
+        transform: translatey(0px);
+      }
+      45% {
+        transform: translatey(0px);
+      }
+      60% {
+        transform: translatey(-6px);
+      }
+      75% {
+        transform: translatey(0px);
+      }
+    }
+    .GetCallbackWrapper {
+      margin-top: 2rem;
+      display: flex;
+      flex-direction: column;
+      .formTitle {
+        font-size: 1.4rem;
+        font-weight: 500;
+        animation: jump 1.5s infinite;
+        will-change: transform;
+        animation-delay: 1s;
+        color: $primary;
+      }
+      .titleHighlight {
+        font-size: 1.5rem;
+        font-weight: 500;
+        color: $primary;
+      }
+      .success {
+        color: green;
+        font-weight: 500;
+        margin-bottom: 1rem;
+      }
+      .error {
+        color: red;
+        font-weight: 500;
+        margin-bottom: 1rem;
+      }
+      .InputWrapper {
+        margin: 0.5rem 0;
+        display: flex;
+        font-size: 1rem;
+        align-items: center;
+        .InputContainer {
+          border: 1px solid $primary;
+          background: white;
+          padding-left: 0.5rem;
+        }
+
+        input {
+          font-size: 1.2rem;
+          border: unset;
+          background: transparent;
+          user-select: unset;
+          width: 12rem;
+          padding: 0.5rem 0.5rem;
+          margin-left: 0.6rem;
+          border-left: 1px solid $primary;
+          &:focus {
+            outline-width: 0;
+            outline: none;
+          }
+        }
+        .disabledButton {
+          background: grey;
+          font-size: 1.2rem;
+          padding: 0.6rem 1.5rem 0.6rem 1rem;
+        }
+        .FormButton {
+          background: $primary;
+          border-radius: 0;
+          font-size: 1.2rem;
+          padding: 0.6rem 1.5rem 0.6rem 1rem;
+          // border-top-left-radius: 0px;
+          // border-bottom-left-radius: 0px;
+        }
+      }
+    }
+  }
+  @media (max-width: 767px) {
+    .LandingScreenContent {
+      position: relative;
+      justify-content: flex-start;
+      flex-direction: column;
+      align-items: flex-start;
+
+      .LeftSectionWrapper {
+        position: relative;
+        width: 100%;
+        margin: 0;
+        padding: 2rem 1.5rem;
+        .LeftSectionBg {
+          display: none;
+        }
+        .title {
+          font-size: 2rem;
+          text-align: center;
+          z-index: unset;
+        }
+        .subTitle {
+          margin: 1rem 0 1rem;
+          font-size: 1rem;
+          text-align: center;
+          z-index: unset;
+        }
+        .footer {
+          margin: auto;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          z-index: unset;
+          order: 0;
+        }
+      }
+      .GetCallbackWrapper {
+        width: 100%;
+        background-color: unset;
+        position: relative;
+        right: unset;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0;
+        .formTitle {
+          font-size: 1.2rem;
+        }
+        .InputWrapper {
+          input {
+            width: 8rem;
+            font-size: 1rem;
+          }
+          .disabledButton {
+            font-size: 1rem;
+          }
+          .FormButton {
+            font-size: 1rem;
+          }
+        }
+      }
+    }
+  }
+}

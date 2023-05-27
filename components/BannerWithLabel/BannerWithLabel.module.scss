@@ -1,0 +1,71 @@
+@import '../../theme/theme';
+
+.BannerWithLabelWrapper {
+	position: relative;
+	height: 100%;
+	width: 100%;
+	$dot-size: 50px;
+	$dot-space: 200px;
+	background-color: $primary-light;
+	background-color: $primary-light;
+	background-size: $dot-space $dot-space;
+	.BannerWrapper {
+		width: 100%;
+		height: 100%;
+		position: relative;
+		span,
+		img {
+			width: 100% !important;
+		}
+		.mobileBanner {
+			display: none;
+		}
+		@media screen and (max-width: 767px) {
+			.banner {
+				display: none;
+			}
+			.mobileBanner {
+				display: unset;
+			}
+		}
+	}
+	.BannerWithLabelContent {
+		width: 100%;
+		height: 100%;
+		display: flex;
+		align-items: flex-end;
+		position: absolute;
+		top: 0;
+		@media (max-width: 767px) {
+			position: absolute;
+			padding: 0px;
+			top: -5px;
+		}
+		.BannerWithLabelBlock {
+			color: $primary-light;
+			background: linear-gradient(rgba(0, 0, 0, 0.5), black);
+			padding: 2% 0 4% 10%;
+			width: 100%;
+			@media (max-width: 767px) {
+				padding: 1rem;
+				background: rgba(0, 0, 0, 0.7);
+			}
+			.BannerWithLabelTitle {
+				font-size: 2rem;
+				font-weight: 600;
+				@media (max-width: 767px) {
+					font-size: 1rem;
+				}
+			}
+			.BannerWithLabelSubTitle {
+				max-width: 70%;
+				font-size: 1.3rem;
+				padding-top: 0.5rem;
+				@media (max-width: 767px) {
+					font-size: 0.8rem;
+					max-width: none;
+				}
+			}
+		}
+	}
+}
