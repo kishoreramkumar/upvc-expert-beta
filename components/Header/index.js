@@ -13,10 +13,10 @@ const Header = (props) => {
     <div className={`${styles.Header} ${props.className}`} id="header">
       <div className={styles.LogoIcon}>
         {props.disabled ? (
-          <Image src={"/assets/images/NewLogosqftexpert.png"} alt="logo" layout="fill" />
+          <Image src={"/assets/images/common/logo.jpg"} alt="logo" layout="fill" />
         ) : (
           <Link href={"/"}>
-            <Image src={"/assets/images/NewLogosqftexpert.png"} alt="logo" layout="fill" />
+            <Image src={"/assets/images/common/logo.jpg"} alt="logo" layout="fill" />
           </Link>
         )}
       </div>

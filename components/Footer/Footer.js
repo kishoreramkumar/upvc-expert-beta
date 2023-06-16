@@ -17,10 +17,10 @@ const Footer = () => {
             position: "relative",
           }}
         >
-          <Image src={"/assets/images/NewLogosqftexpert.png"} alt="logo" layout="fill" />
+          <Image src={"/assets/images/common/logo.jpg"} alt="logo" layout="fill" />
         </div>
         <div className={styles.FooterWithCompanyCopyRights}>
-          Copyright - 2022 sqft.expert.
+          Copyright - 2023 upvc.expert.
         </div>
       </div>
       <div className={styles.FooterWithQuickLinks}>

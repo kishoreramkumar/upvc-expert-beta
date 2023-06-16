@@ -19,9 +19,17 @@ import {
   whyChooseUsList,
   landingPageOpacity,
   testimonialList,
-  seoContent
+  seoContent,
+  productStylesDetails,
+  durabilitySafetyConst
 } from "../constants/constants";
 import SeoContent from "../components/SeoContent/SeoContent";
+import ProductStyles from "../components/ProductStyles/ProductStyles";
+import ImageGallery from "../components/ImageGallery/ImageGallery";
+import VideoSlider from "../components/ClientFeedback/ClientFeedback";
+import ClientFeedback from "../components/ClientFeedback/ClientFeedback";
+import ClientList from "../components/ClientList/ClientList";
+import DurabilitySafety from "../components/DurabilitySafety/DurabilitySafety.index";
 
 export default function Home() {
   const router = useRouter();
@@ -29,6 +37,10 @@ export default function Home() {
     let packageName = el?.name?.toLowerCase()?.split(" ")?.join("");
     router.push(`${el.url}/#${packageName}`);
   };
+
+  const onClickViewMore = () => {
+  };
+
   return (
     <HomeLayout>
       <Head>
@@ -42,6 +54,9 @@ export default function Home() {
       </Head>
 
       <LandingSection data={landingPageConstant} opactiy={landingPageOpacity} />
+      <ProductStyles title={productStylesDetails.title} data={productStylesDetails.data} />
+      <DurabilitySafety data={durabilitySafetyConst} />
+      <ImageGallery data={[...productStylesDetails.data, ...productStylesDetails.data]} viewMoreClick={onClickViewMore} />
       <Expertise />
       <Packages onSelectPackage={onSelectPackage} />
       <RecentProjects />
@@ -51,8 +66,15 @@ export default function Home() {
         title={constructionAdTitle}
         sideBanner={"/assets/images/qualityConstruction.svg"}
       />
+      <ClientFeedback videos={[{ url: "https://www.youtube.com/embed/8S4s9JRprTM", thumbnail: "https://d21xn5q7qjmco5.cloudfront.net/images/testimonials/user/1662720436.webp", customerName: "K. Customer Name", place: "Bangalore" }, { url: "https://www.youtube.com/embed/8S4s9JRprTM", thumbnail: "https://d21xn5q7qjmco5.cloudfront.net/images/testimonials/user/1662720436.webp", customerName: "K. Customer Name", place: "Bangalore" }, { url: "https://www.youtube.com/embed/8S4s9JRprTM", thumbnail: "https://d21xn5q7qjmco5.cloudfront.net/images/testimonials/user/1662720436.webp", customerName: "K. Customer Name", place: "Bangalore" }, { url: "https://www.youtube.com/embed/8S4s9JRprTM", thumbnail: "https://d21xn5q7qjmco5.cloudfront.net/images/testimonials/user/1662720436.webp", customerName: "K. Customer Name", place: "Bangalore" }, { url: "https://www.youtube.com/embed/8S4s9JRprTM", thumbnail: "https://d21xn5q7qjmco5.cloudfront.net/images/testimonials/user/1662720436.webp", customerName: "K. Customer Name", place: "Bangalore" }]} />
+      <ClientList data={[
+        { thumbnail: "https://d21xn5q7qjmco5.cloudfront.net/images/testimonials/user/1662720436.webp", },
+        { thumbnail: "https://d21xn5q7qjmco5.cloudfront.net/images/testimonials/user/1662720436.webp", },
+        { thumbnail: "https://d21xn5q7qjmco5.cloudfront.net/images/testimonials/user/1662720436.webp", },
+        { thumbnail: "https://d21xn5q7qjmco5.cloudfront.net/images/testimonials/user/1662720436.webp", },
+        { thumbnail: "https://d21xn5q7qjmco5.cloudfront.net/images/testimonials/user/1662720436.webp", }]} />
       <Testimonials testimonialList={testimonialList} />
-      <SeoContent data={seoContent}/>
+      <SeoContent data={seoContent} />
       <Footer />
     </HomeLayout>
   );

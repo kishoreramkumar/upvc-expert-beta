@@ -1,0 +1,110 @@
+@import "../../theme/theme";
+
+.clientListWrapper {
+    padding: 2rem;
+    margin: 0 auto;
+    width: 80%;
+
+    :global(.slick-slider) {
+        display: flex;
+        outline: none !important;
+
+        :global(.slick-arrow) {
+            display: none !important;
+
+            @media (max-width: 767px) {
+                display: none !important;
+            }
+        }
+    }
+
+    @media screen and (max-width: 768px) {
+        margin: 0;
+        width: 100%;
+    }
+
+    .packageDetailsWrapperMain {
+        // display: flex;
+        // overflow: scroll;
+
+        display: flex;
+        /* align-items: center; */
+        justify-content: center;
+        flex-direction: column;
+
+        .clientFeedbackImgWrapper {
+            width: 100%;
+            position: relative;
+            border-radius: 1rem;
+
+            .clientFeedbackThumbnail {
+                width: 100%;
+                border-radius: 1rem;
+            }
+
+            .clientFeedbackPlayIcon {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                img {
+                    width: 5rem;
+                    height: 5rem;
+                }
+            }
+        }
+
+        .packageDetailsContainer {
+            margin-right: 1rem;
+            padding-top: 1rem;
+            padding: 1rem 1rem 0rem;
+
+            .customerNameLabel {
+                font-weight: 600;
+                font-size: 1.4rem;
+                color: $primary-dark;
+                opacity: 0.8;
+                margin-top: 0.5rem;
+            }
+
+            .customerPlace {
+                font-weight: 400;
+                font-size: 1.4rem;
+                color: $primary-dark;
+                opacity: 0.6;
+                margin-top: 0.2rem;
+            }
+        }
+    }
+
+    .clientFeedbackVideoModal {
+        width: 100%;
+        height: 400px;
+        max-height: 100%;
+        max-width: 700px;
+
+        @media screen and (max-width: 768px) {
+            max-width: 300px;
+            height: auto;
+        }
+    }
+
+    .clientFeedbackVideoClose {
+        color: $primary-light;
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+        text-align: right;
+        cursor: pointer;
+    }
+
+    .clientFeedbackVideo {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+}

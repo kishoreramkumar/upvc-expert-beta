@@ -12,7 +12,7 @@ export const Menu = ({ open }) => {
     <div className={`${styles.HamburgerMenu} ${open && styles.Open}`}>
       <div className={styles.logoWrapper}>
         <Link href={"/"} passHref>
-          <Image src={"/assets/images/NewLogosqftexpert.png"} alt="logo" layout="fill" />
+          <Image src={"/assets/images/common/logo.jpg"} alt="logo" layout="fill" />
         </Link>
       </div>
       <MobileNavBar navButtons={navBarMenu(process.env.mobileNo)} />

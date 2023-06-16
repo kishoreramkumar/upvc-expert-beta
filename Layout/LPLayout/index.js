@@ -9,7 +9,7 @@ export default function LPLayout(props) {
       <div className={styles.LPLogoWrapper}>
         <div className={styles.LPLogo}>
           <Image
-            src="/assets/images/NewLogosqftexpert.png"
+            src="/assets/images/common/logo.jpg"
             alt="sqft expert"
             layout="fill"
           ></Image>

@@ -56,6 +56,20 @@ export const expertiseCardConstant = [
   },
 ];
 
+export const productStylesDetails = {
+  title: "Product Categories",
+  data: [{
+    image: "recentProject/AnushaHouseElevationSqftExpert.jpg",
+    title: "Windows",
+    path: "/windows"
+  }, {
+    image: "recentProject/AnushaHouseElevationSqftExpert.jpg",
+    title: "Doors",
+    path: "/doors"
+  }
+  ]
+};
+
 export const productDetails = [
   {
     name: "Construction",
@@ -449,31 +463,24 @@ export const tabs = [
 // Disallow: /contact-us/
 export const navBarMenu = (mobileNo) => [
   {
-    label: "Construction",
-    path: "/house-construction-bangalore",
+    label: "Doors",
+    path: "/doors",
   },
-  {
-    label: "Services",
-    path: "",
-    navArr: [
-      {
-        label: "Interiors",
-        path: "/home-interior-design-bangalore",
-      },
-      {
-        label: "Architecture",
-        path: "/architectural-design-bangalore",
-      },
-      {
-        label: "Plan Approval",
-        path: "/house-plan-approvals-bangalore",
-      },
-      {
-        label: "Structural Design",
-        path: "/structural-consultants-bangalore",
-      },
-    ],
-  },
+  { label: "Windows", path: "/windows" },
+  // {
+  //   label: "Services",
+  //   path: "",
+  //   navArr: [
+  //     {
+  //       label: "Windows",
+  //       path: "/home-interior-design-bangalore",
+  //     },
+  //     {
+  //       label: "Doors",
+  //       path: "/architectural-design-bangalore",
+  //     },
+  //   ],
+  // },
   {
     label: "About us",
     path: "/about-us",
@@ -496,11 +503,8 @@ export const footerDetails = (mobileNo) => {
   return {
     quickLinks: [
       { label: "Home", path: "/" },
-      { label: "Construction", path: "/house-construction-bangalore" },
-      { label: "Interiors", path: "/home-interior-design-bangalore" },
-      { label: "Architecture", path: "/architectural-design-bangalore" },
-      { label: "Plan Approval", path: "/house-plan-approvals-bangalore" },
-      { label: "Structural Design", path: "/structural-consultants-bangalore" },
+      { label: "Windows", path: "/windows" },
+      { label: "Doors", path: "/doors" },
     ],
     ImpLinks: [
       { label: "Blogs", path: "/blogs" },
@@ -1074,3 +1078,32 @@ export const seoContent = [
     expandContent: "",
   },
 ];
+
+export const durabilitySafetyConst = {
+  title: "Durability & Safety",
+  videoUrl: "https://www.youtube.com/embed/8S4s9JRprTM",
+  thumbnail: "https://d21xn5q7qjmco5.cloudfront.net/images/services/rightimage/main-16330691511.webp",
+  data: [
+    { img: "https://d21xn5q7qjmco5.cloudfront.net/images/services/1633597739.webp", name: "Low maintenance" },
+    { img: "https://d21xn5q7qjmco5.cloudfront.net/images/services/1633597739.webp", name: "Low maintenance" },
+    { img: "https://d21xn5q7qjmco5.cloudfront.net/images/services/1633597739.webp", name: "Low maintenance" },
+    { img: "https://d21xn5q7qjmco5.cloudfront.net/images/services/1633597739.webp", name: "Low maintenance" },
+    { img: "https://d21xn5q7qjmco5.cloudfront.net/images/services/1633597739.webp", name: "Low maintenance" },
+    { img: "https://d21xn5q7qjmco5.cloudfront.net/images/services/1633597739.webp", name: "Low maintenance" },
+  ]
+}
+
+
+export const colorAndFinish = {
+  title: "Color and Finish",
+  videoUrl: "https://www.youtube.com/embed/8S4s9JRprTM",
+  thumbnail: "https://d21xn5q7qjmco5.cloudfront.net/images/services/rightimage/main-16330691511.webp",
+  data: [
+    { img: "https://d21xn5q7qjmco5.cloudfront.net/images/coloroption/1621076318.jpg", name: "Red" },
+    { img: "https://d21xn5q7qjmco5.cloudfront.net/images/coloroption/1621076318.jpg", name: "Red" },
+    { img: "https://d21xn5q7qjmco5.cloudfront.net/images/coloroption/1621076318.jpg", name: "Red" },
+    { img: "https://d21xn5q7qjmco5.cloudfront.net/images/coloroption/1621076318.jpg", name: "Red" },
+    { img: "https://d21xn5q7qjmco5.cloudfront.net/images/coloroption/1621076318.jpg", name: "Red" },
+    { img: "https://d21xn5q7qjmco5.cloudfront.net/images/coloroption/1621076318.jpg", name: "Red" },
+  ]
+}

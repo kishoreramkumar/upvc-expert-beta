@@ -18,21 +18,15 @@ const BottomNavBar = (props) => {
   const mobileNo = convertMobileNo(process.env.mobileNo);
 
   const servicesPages = [
-    "/house-construction-bangalore",
-    "/home-interior-design-bangalore",
-    "/architectural-design-bangalore",
-    "/house-plan-approvals-bangalore",
-    "/structural-consultants-bangalore",
-    "/about-us",
-    "/contact-us",
+    "/doors",
+    "/windows",
   ];
   return (
     <div className={styles.bottomNav}>
       <Link href="/" passHref>
         <div
-          className={`${styles.btnTab} ${
-            props.router.pathname === "/" ? styles.active : ""
-          }`}
+          className={`${styles.btnTab} ${props.router.pathname === "/" ? styles.active : ""
+            }`}
         >
           <Image
             src={"/assets/images/menu/home.svg"}
@@ -45,9 +39,8 @@ const BottomNavBar = (props) => {
         </div>
       </Link>
       <div
-        className={`${styles.btnTab} ${
-          servicesPages.includes(props.router.pathname) ? styles.active : ""
-        }`}
+        className={`${styles.btnTab} ${servicesPages.includes(props.router.pathname) ? styles.active : ""
+          }`}
         onClick={() => {
           setOpen(true);
         }}

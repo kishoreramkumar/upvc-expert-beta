@@ -13,15 +13,15 @@ const AboutUsContactUs = (props) => {
     <div className={styles.Layout}>
       <Head>
         <title>sqft.expert</title>
-        <link rel="icon" href="/NewLogosqftexpert.png" />
+        <link rel="icon" href="/common/logo.jpg" />
       </Head>
       {/* <TopBar></TopBar> */}
       <Header appTitle={appTitle} />
       <div className={styles.Content}>
-          <BannerWithLabel type={props.type}/>
-          {props.children}
-          <Footer/>
-        </div>
+        <BannerWithLabel type={props.type} />
+        {props.children}
+        <Footer />
+      </div>
       <BottomNavBar />
       <WhatsAppChat />
     </div>

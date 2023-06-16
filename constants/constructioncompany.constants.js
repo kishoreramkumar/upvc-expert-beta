@@ -449,31 +449,35 @@ export const tabs = [
 // Disallow: /contact-us/
 export const navBarMenu = (mobileNo) => [
   {
-    label: "Construction",
-    path: "/house-construction-bangalore",
+    label: "windows",
+    path: "/windows",
   },
   {
-    label: "Services",
-    path: "",
-    navArr: [
-      {
-        label: "Interiors",
-        path: "/home-interior-design-bangalore",
-      },
-      {
-        label: "Architecture",
-        path: "/architectural-design-bangalore",
-      },
-      {
-        label: "Plan Approval",
-        path: "/house-plan-approvals-bangalore",
-      },
-      {
-        label: "Structural Design",
-        path: "/structural-consultants-bangalore",
-      },
-    ],
+    label: "Doors",
+    path: "/doors",
   },
+  // {
+  //   label: "Services",
+  //   path: "",
+  //   navArr: [
+  //     {
+  //       label: "Interiors",
+  //       path: "/home-interior-design-bangalore",
+  //     },
+  //     {
+  //       label: "Architecture",
+  //       path: "/architectural-design-bangalore",
+  //     },
+  //     {
+  //       label: "Plan Approval",
+  //       path: "/house-plan-approvals-bangalore",
+  //     },
+  //     {
+  //       label: "Structural Design",
+  //       path: "/structural-consultants-bangalore",
+  //     },
+  //   ],
+  // },
   {
     label: "About us",
     path: "about-us",

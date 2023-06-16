@@ -18,7 +18,7 @@ const BlogsLayout = (props) => {
                 <Image
                   objectFit="contain"
                   layout="fill"
-                  src={"/assets/images/NewLogosqftexpert.png"}
+                  src={"/assets/images/common/logo.jpg"}
                   alt="logo"
                 ></Image>
               </div>

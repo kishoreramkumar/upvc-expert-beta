@@ -1,0 +1,111 @@
+@import "../../theme/theme";
+
+.ColorAndFinishContainer {
+    padding: 2rem 0;
+    max-width: 1024px;
+
+    .ColorAndFinishWrapper {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding-bottom: 1rem;
+
+        .ColorAndFinishList {
+            display: flex;
+            width: 60%;
+            justify-content: space-between;
+            flex-wrap: wrap;
+
+            // max-width: 1100px;
+            @media (max-width: 767px) {
+                flex-wrap: wrap;
+            }
+
+            .ColorAndFinishListItem {
+                width: 32%;
+                padding: 1rem 1rem;
+
+
+                .ColorAndFinishListItemWrapper {
+                    border: 1px solid grey;
+                    border-radius: 5px;
+                    display: flex;
+                    flex-direction: column;
+                    height: 100%;
+                    align-items: center;
+                    justify-content: space-between;
+
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+
+        .ColorAndFinishPlayIcon {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                width: 5rem;
+                height: 5rem;
+            }
+        }
+
+        .ColorAndFinishThumb {
+            width: 100%;
+            border-radius: 1rem;
+
+
+        }
+
+        .ColorAndFinishVideoWrapper {
+            width: 100%;
+            position: relative;
+            border-radius: 1rem;
+
+
+        }
+
+        .ColorAndFinishRightWrapper {
+            width: 40%;
+            padding: 1rem;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+
+        }
+    }
+
+    .ColorAndFinishVideoModal {
+        width: 100%;
+        height: 400px;
+        max-height: 100%;
+        max-width: 700px;
+
+        @media screen and (max-width: 768px) {
+            max-width: 300px;
+            height: auto;
+        }
+    }
+
+    .ColorAndFinishVideoClose {
+        color: $primary-light;
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+        text-align: right;
+        cursor: pointer;
+    }
+
+    .ColorAndFinishVideo {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+}
