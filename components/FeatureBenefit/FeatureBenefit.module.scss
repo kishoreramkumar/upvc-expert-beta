@@ -1,0 +1,59 @@
+@import '../../theme/theme';
+
+.sliderWrapperFeatureBenefit {
+    margin: 0rem 2rem;
+    width: 100%;
+    justify-content: center;
+
+    .title {
+        justify-content: center;
+        display: flex;
+        text-align: center;
+    }
+
+    @media (max-width: 767px) {
+        width: 100%;
+    }
+
+    :global(.slick-slider) {
+        display: flex;
+
+        :global(.slick-arrow) {
+            @media (max-width: 767px) {
+                display: none !important;
+            }
+        }
+    }
+}
+
+.featureBenefitWrapper {
+    // width: 50%;
+    margin: 1rem;
+    height: 8rem;
+    background-color: $secondary;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    justify-content: center;
+
+    .recentCardImg {
+        margin-right: 1rem;
+
+        img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+    }
+
+    .name {
+        text-transform: uppercase;
+    }
+
+    .bottomWrapper {
+        display: flex;
+        justify-content: space-between;
+        background: $primary;
+        color: #fff;
+        padding: 1.5rem;
+    }
+}

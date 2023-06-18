@@ -33,7 +33,7 @@ const ProductStyles = ({ title = "Product Styles", data = [] }) => {
       <SliderWrapper {...settings}>
         {data.map((el, index) => (
           <div key={index} onClick={() => { router.push(el.path) }}>
-            <RecentProjectCard image={el.image} title={el.title} />
+            <RecentProjectCard image={el.image} title={el.title} icon={el.icon} />
           </div>
         ))}
       </SliderWrapper>
@@ -43,13 +43,15 @@ const ProductStyles = ({ title = "Product Styles", data = [] }) => {
 
 export default ProductStyles;
 
-const RecentProjectCard = ({ image, title }) => {
+const RecentProjectCard = ({ image, title, icon }) => {
+  debugger;
   return (
     <div className={styles.productStyleCardWrapper}>
       <div className={styles.recentCardImg}>
         <img src={`/assets/images/${image}`} alt="proj" loading="lazy" />
       </div>
       <div className={styles.bottomWrapper}>
+        {icon && <img src={icon} />}
         <div>{title}</div>
         {/* <div>Kodihalli</div> */}
       </div>

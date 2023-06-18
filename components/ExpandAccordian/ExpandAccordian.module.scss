@@ -1,0 +1,22 @@
+@import "../../theme/theme";
+
+.ExpandAccordianWrapper {
+    padding: 2rem 1.5rem;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+
+    .ExpandAccordianContent {
+        font-size: 1rem;
+    }
+
+    .ExpandAccordianExpandContent {
+        font-size: 1rem;
+    }
+
+    .ExpandAccordianShowMore {
+        color: $primary;
+        margin: 1rem 0;
+        text-align: center;
+    }
+}

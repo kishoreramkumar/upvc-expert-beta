@@ -1,0 +1,99 @@
+@import '../../theme/theme';
+
+.sliderWrapperAvailableDesign {
+    margin: 0rem 1rem;
+    width: 100%;
+
+    @media (max-width: 767px) {
+        width: 100%;
+    }
+
+    :global(.slick-slider) {
+        display: flex;
+
+        :global(.slick-arrow) {
+            @media (max-width: 767px) {
+                display: none !important;
+            }
+        }
+    }
+
+    :global(.slick-slide) {
+        padding: 4vh 1vw;
+
+        &+div {
+            div {
+                div:last-child {
+                    transform: scale(1);
+                    transition: transform;
+                    transition-duration: 0.5s;
+                }
+            }
+        }
+
+        @media (max-width: 767px) {
+            padding: 0
+        }
+
+    }
+
+    :global(.slick-current) {
+        &+div {
+            div {
+                div:last-child {
+                    transform: scale(1.1);
+                    transition: transform;
+                    transition-duration: 0.5s;
+
+                    @media (max-width: 767px) {
+                        transform: scale(1);
+                    }
+                }
+            }
+        }
+    }
+
+    .button {
+        background-color: $primary;
+        border-radius: 4px;
+        transition: all 300ms ease;
+        padding: 0.4rem 1.5rem;
+        font-size: 0.9rem;
+        line-height: 0.9rem;
+        height: unset;
+        margin: 0 auto;
+    }
+
+    .disabledButton {
+        background-color: lightgray;
+        border-radius: 4px;
+        transition: all 300ms ease;
+        padding: 0.4rem 1.5rem;
+        font-size: 0.9rem;
+        line-height: 0.9rem;
+        height: unset;
+        color: $primary-dark;
+    }
+
+}
+
+.availableDesignCardWrapper {
+    // width: 50%;
+    margin: 1rem;
+
+    .recentCardImg {
+        box-shadow: -10px 10px 10px rgba(0, 0, 0, .2);
+
+        img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+    }
+
+    .bottomWrapper {
+        display: flex;
+        justify-content: space-between;
+        color: $primary-dark;
+        padding: 1.5rem;
+    }
+}
