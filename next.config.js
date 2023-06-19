@@ -2,6 +2,7 @@ const path = require("path");
 
 module.exports = {
   images: {
+    unoptimized: true,
     domains: ["drive.google.com"],
   },
   sassOptions: {
@@ -12,4 +13,9 @@ module.exports = {
     mobileNo: process.env.MOBILE_NO,
   },
   reactStrictMode: true,
+  experimental: {
+    images: {
+      unoptimized: true
+    }
+  }
 };
