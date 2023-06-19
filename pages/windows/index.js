@@ -61,58 +61,33 @@ export default function Home() {
             </Head>
 
             <LandingSection data={landingPageConstant} opactiy={landingPageOpacity} />
-            <ProductStyles title={productStylesDetails.title} data={productStylesDetails.data} infinite={true} />
+            <ProductStyles title={productStylesDetails.title} data={productStylesDetails.data} infinite={true} showBtn={true} />
             {/* <DurabilitySafety data={durabilitySafetyConst} /> */}
             <ColorAndFinish data={colorAndFinish} />
-            <Types data={[{
-                name: "Sliding", img: "https://d21xn5q7qjmco5.cloudfront.net/images/doortype/thumb1626198959.png", description: "Sliding windows comprises of two or more than two horizontal sashes that are fitted with rollers at the base for smooth sideward track movement. Easy to operate, these windows offer panoramic views and a great amount of ventilation.", icon: "https://d21xn5q7qjmco5.cloudfront.net/images/doortype/1629980042.gif", availableDesign: {
-                    title: "Available Design",
-                    data: [{
-                        image: "https://d21xn5q7qjmco5.cloudfront.net/images/doortype/0-20210817165745.jpg",
-                        title: "exclusive"
-                    }, {
-                        image: "https://d21xn5q7qjmco5.cloudfront.net/images/doortype/0-20210817165745.jpg",
-                        title: "exclusive"
-                    }, {
-                        image: "https://d21xn5q7qjmco5.cloudfront.net/images/doortype/0-20210817165745.jpg",
-                        title: "exclusive"
-                    }]
+            <Types data={
+                productStylesDetails.data.map((productStyle) => {
+                    return {
+                        name: productStyle.title,
+                        icon: productStyle.icon,
+                        image: productStyle.img,
+                        description: "Sliding windows comprises of two or more than two horizontal sashes that are fitted with rollers at the base for smooth sideward track movement. Easy to operate, these windows offer panoramic views and a great amount of ventilation.",
+                        availableDesign: {
+                            title: "Available Design",
+                            data: [{
+                                image: "https://d21xn5q7qjmco5.cloudfront.net/images/doortype/0-20210817165745.jpg",
+                                title: "exclusive"
+                            }, {
+                                image: "https://d21xn5q7qjmco5.cloudfront.net/images/doortype/0-20210817165745.jpg",
+                                title: "exclusive"
+                            }, {
+                                image: "https://d21xn5q7qjmco5.cloudfront.net/images/doortype/0-20210817165745.jpg",
+                                title: "exclusive"
+                            }]
 
-                }, recommendedFor: {}, about: {}, featuresBenefits: {}
-            }, {
-                name: "Sliding",
-                img: "https://d21xn5q7qjmco5.cloudfront.net/images/doortype/thumb1626198959.png",
-                description: "Sliding windows comprises of two or more than two horizontal sashes that are fitted with rollers at the base for smooth sideward track movement. Easy to operate, these windows offer panoramic views and a great amount of ventilation.", icon: "https://d21xn5q7qjmco5.cloudfront.net/images/doortype/1629980042.gif",
-                availableDesign: {
-                    title: "Available Design",
-                    data: [{
-                        image: "https://d21xn5q7qjmco5.cloudfront.net/images/doortype/0-20210817165745.jpg",
-                        title: "exclusive"
-                    }, {
-                        image: "https://d21xn5q7qjmco5.cloudfront.net/images/doortype/0-20210817165745.jpg",
-                        title: "exclusive"
-                    }, {
-                        image: "https://d21xn5q7qjmco5.cloudfront.net/images/doortype/0-20210817165745.jpg",
-                        title: "exclusive"
-                    }]
-
-                }, recommendedFor: {}, about: {}, featuresBenefits: {}
-            }, {
-                name: "Sliding", img: "https://d21xn5q7qjmco5.cloudfront.net/images/doortype/thumb1626198959.png", description: "Sliding windows comprises of two or more than two horizontal sashes that are fitted with rollers at the base for smooth sideward track movement. Easy to operate, these windows offer panoramic views and a great amount of ventilation.", icon: "https://d21xn5q7qjmco5.cloudfront.net/images/doortype/1629980042.gif", availableDesign: {
-                    title: "Available Design",
-                    data: [{
-                        image: "https://d21xn5q7qjmco5.cloudfront.net/images/doortype/0-20210817165745.jpg",
-                        title: "exclusive"
-                    }, {
-                        image: "https://d21xn5q7qjmco5.cloudfront.net/images/doortype/0-20210817165745.jpg",
-                        title: "exclusive"
-                    }, {
-                        image: "https://d21xn5q7qjmco5.cloudfront.net/images/doortype/0-20210817165745.jpg",
-                        title: "exclusive"
-                    }]
-
-                }, recommendedFor: {}, about: {}, featuresBenefits: {}
-            }]} />
+                        }, recommendedFor: {}, about: {}, featuresBenefits: {}
+                    }
+                })
+            } />
             <HowItWorks title={"How we work"} data={howItWorks} />
             <ImageGallery data={[...productStylesDetails.data, ...productStylesDetails.data]} viewMoreClick={onClickViewMore} />
             {/* <Expertise /> */}

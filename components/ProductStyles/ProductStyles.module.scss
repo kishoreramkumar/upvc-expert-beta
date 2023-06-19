@@ -39,8 +39,23 @@
 		align-items: center;
 		justify-content: flex-start;
 
+		.bottomLeftWrapper {
+			display: flex;
+			align-items: center;
+		}
+
 		img {
 			width: 4rem;
+			margin-right: 0.5rem;
+		}
+
+		.buttonStyle {
+			color: $primary;
+			border: 1px solid white;
+			background: white;
+			font-weight: 500;
+			margin-left: auto;
+			font-size: 1.1rem;
 		}
 	}
 }
