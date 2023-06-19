@@ -10,6 +10,8 @@ import LandingSection from "../../components/LandingSection/LandingSection";
 import RecentProjects from "../../components/RecentProjects/RecentProjects";
 import Testimonials from "../../components/Testimonials/Testimonials";
 import WhyChooseUs from "../../components/WhyChooseUs/WhyChooseUs";
+import HowItWorks from "../../components/HowItWorks/HowItWorks";
+import FAQ from "../../components/FAQ/FAQ.index";
 import Head from "next/head";
 import { useRouter } from "next/router";
 
@@ -22,8 +24,10 @@ import {
     seoContent,
     productStylesDetails,
     durabilitySafetyConst,
+    faqQuestions,
+    howItWorks,
     colorAndFinish
-} from "../../constants/constants";
+} from "../../constants/window.constant";
 import SeoContent from "../../components/SeoContent/SeoContent";
 import ProductStyles from "../../components/ProductStyles/ProductStyles";
 import ImageGallery from "../../components/ImageGallery/ImageGallery";
@@ -34,7 +38,7 @@ import DurabilitySafety from "../../components/DurabilitySafety/DurabilitySafety
 import ColorAndFinish from "../../components/ColorAndFinish/ColorAndFinish";
 import Types from "../../components/Types/Types";
 
-export default function Home() {
+export default function Doors() {
     const router = useRouter();
     const onSelectPackage = (el) => {
         let packageName = el?.name?.toLowerCase()?.split(" ")?.join("");
@@ -57,8 +61,8 @@ export default function Home() {
             </Head>
 
             <LandingSection data={landingPageConstant} opactiy={landingPageOpacity} />
-            <ProductStyles title={productStylesDetails.title} data={productStylesDetails.data.map((_o) => { return { ..._o, icon: "https://d21xn5q7qjmco5.cloudfront.net/images/doortype/1629980042.gif" } })} />
-            <DurabilitySafety data={durabilitySafetyConst} />
+            <ProductStyles title={productStylesDetails.title} data={productStylesDetails.data} infinite={true} />
+            {/* <DurabilitySafety data={durabilitySafetyConst} /> */}
             <ColorAndFinish data={colorAndFinish} />
             <Types data={[{
                 name: "Sliding", img: "https://d21xn5q7qjmco5.cloudfront.net/images/doortype/thumb1626198959.png", description: "Sliding windows comprises of two or more than two horizontal sashes that are fitted with rollers at the base for smooth sideward track movement. Easy to operate, these windows offer panoramic views and a great amount of ventilation.", icon: "https://d21xn5q7qjmco5.cloudfront.net/images/doortype/1629980042.gif", availableDesign: {
@@ -109,24 +113,26 @@ export default function Home() {
 
                 }, recommendedFor: {}, about: {}, featuresBenefits: {}
             }]} />
+            <HowItWorks title={"How we work"} data={howItWorks} />
             <ImageGallery data={[...productStylesDetails.data, ...productStylesDetails.data]} viewMoreClick={onClickViewMore} />
-            <Expertise />
-            <Packages onSelectPackage={onSelectPackage} />
-            <RecentProjects />
-            <WhyChooseUs whyChooseUsList={whyChooseUsList} />
-            <ConstructionServiceAd
+            {/* <Expertise /> */}
+            {/* <Packages onSelectPackage={onSelectPackage} /> */}
+            {/* <RecentProjects /> */}
+            {/* <WhyChooseUs whyChooseUsList={whyChooseUsList} /> */}
+            {/* <ConstructionServiceAd
                 data={landingPageConstant.companyInsight}
                 title={constructionAdTitle}
                 sideBanner={"/assets/images/qualityConstruction.svg"}
-            />
+            /> */}
             <ClientFeedback videos={[{ url: "https://www.youtube.com/embed/8S4s9JRprTM", thumbnail: "https://d21xn5q7qjmco5.cloudfront.net/images/testimonials/user/1662720436.webp", customerName: "K. Customer Name", place: "Bangalore" }, { url: "https://www.youtube.com/embed/8S4s9JRprTM", thumbnail: "https://d21xn5q7qjmco5.cloudfront.net/images/testimonials/user/1662720436.webp", customerName: "K. Customer Name", place: "Bangalore" }, { url: "https://www.youtube.com/embed/8S4s9JRprTM", thumbnail: "https://d21xn5q7qjmco5.cloudfront.net/images/testimonials/user/1662720436.webp", customerName: "K. Customer Name", place: "Bangalore" }, { url: "https://www.youtube.com/embed/8S4s9JRprTM", thumbnail: "https://d21xn5q7qjmco5.cloudfront.net/images/testimonials/user/1662720436.webp", customerName: "K. Customer Name", place: "Bangalore" }, { url: "https://www.youtube.com/embed/8S4s9JRprTM", thumbnail: "https://d21xn5q7qjmco5.cloudfront.net/images/testimonials/user/1662720436.webp", customerName: "K. Customer Name", place: "Bangalore" }]} />
-            <ClientList data={[
+            {/* <ClientList data={[
                 { thumbnail: "https://d21xn5q7qjmco5.cloudfront.net/images/testimonials/user/1662720436.webp", },
                 { thumbnail: "https://d21xn5q7qjmco5.cloudfront.net/images/testimonials/user/1662720436.webp", },
                 { thumbnail: "https://d21xn5q7qjmco5.cloudfront.net/images/testimonials/user/1662720436.webp", },
                 { thumbnail: "https://d21xn5q7qjmco5.cloudfront.net/images/testimonials/user/1662720436.webp", },
-                { thumbnail: "https://d21xn5q7qjmco5.cloudfront.net/images/testimonials/user/1662720436.webp", }]} />
+                { thumbnail: "https://d21xn5q7qjmco5.cloudfront.net/images/testimonials/user/1662720436.webp", }]} /> */}
             <Testimonials testimonialList={testimonialList} />
+            <FAQ data={faqQuestions} title={"Frequently Asked Questions"} />
             <SeoContent data={seoContent} />
             <Footer />
         </HomeLayout>

@@ -57,9 +57,9 @@ export default function Home() {
       <ProductStyles title={productStylesDetails.title} data={productStylesDetails.data} />
       <DurabilitySafety data={durabilitySafetyConst} />
       <ImageGallery data={[...productStylesDetails.data, ...productStylesDetails.data]} viewMoreClick={onClickViewMore} />
-      <Expertise />
-      <Packages onSelectPackage={onSelectPackage} />
-      <RecentProjects />
+      {/* <Expertise /> */}
+      {/* <Packages onSelectPackage={onSelectPackage} /> */}
+      {/* <RecentProjects /> */}
       <WhyChooseUs whyChooseUsList={whyChooseUsList} />
       <ConstructionServiceAd
         data={landingPageConstant.companyInsight}
@@ -67,12 +67,12 @@ export default function Home() {
         sideBanner={"/assets/images/qualityConstruction.svg"}
       />
       <ClientFeedback videos={[{ url: "https://www.youtube.com/embed/8S4s9JRprTM", thumbnail: "https://d21xn5q7qjmco5.cloudfront.net/images/testimonials/user/1662720436.webp", customerName: "K. Customer Name", place: "Bangalore" }, { url: "https://www.youtube.com/embed/8S4s9JRprTM", thumbnail: "https://d21xn5q7qjmco5.cloudfront.net/images/testimonials/user/1662720436.webp", customerName: "K. Customer Name", place: "Bangalore" }, { url: "https://www.youtube.com/embed/8S4s9JRprTM", thumbnail: "https://d21xn5q7qjmco5.cloudfront.net/images/testimonials/user/1662720436.webp", customerName: "K. Customer Name", place: "Bangalore" }, { url: "https://www.youtube.com/embed/8S4s9JRprTM", thumbnail: "https://d21xn5q7qjmco5.cloudfront.net/images/testimonials/user/1662720436.webp", customerName: "K. Customer Name", place: "Bangalore" }, { url: "https://www.youtube.com/embed/8S4s9JRprTM", thumbnail: "https://d21xn5q7qjmco5.cloudfront.net/images/testimonials/user/1662720436.webp", customerName: "K. Customer Name", place: "Bangalore" }]} />
-      <ClientList data={[
+      {/* <ClientList data={[
         { thumbnail: "https://d21xn5q7qjmco5.cloudfront.net/images/testimonials/user/1662720436.webp", },
         { thumbnail: "https://d21xn5q7qjmco5.cloudfront.net/images/testimonials/user/1662720436.webp", },
         { thumbnail: "https://d21xn5q7qjmco5.cloudfront.net/images/testimonials/user/1662720436.webp", },
         { thumbnail: "https://d21xn5q7qjmco5.cloudfront.net/images/testimonials/user/1662720436.webp", },
-        { thumbnail: "https://d21xn5q7qjmco5.cloudfront.net/images/testimonials/user/1662720436.webp", }]} />
+        { thumbnail: "https://d21xn5q7qjmco5.cloudfront.net/images/testimonials/user/1662720436.webp", }]} /> */}
       <Testimonials testimonialList={testimonialList} />
       <SeoContent data={seoContent} />
       <Footer />

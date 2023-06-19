@@ -59,11 +59,11 @@ export const expertiseCardConstant = [
 export const productStylesDetails = {
   title: "Product Categories",
   data: [{
-    image: "recentProject/AnushaHouseElevationSqftExpert.jpg",
+    image: "https://d21xn5q7qjmco5.cloudfront.net/images/windowtype/thumb1626198704.png",
     title: "Windows",
     path: "/windows"
   }, {
-    image: "recentProject/AnushaHouseElevationSqftExpert.jpg",
+    image: "https://d21xn5q7qjmco5.cloudfront.net/images/windowtype/thumb1626198680.png",
     title: "Doors",
     path: "/doors"
   }
