@@ -58,7 +58,7 @@ export default function LPConstruction() {
                     <link rel="icon" href="/favicon.ico" />
                     <link rel="canonical" href="https://sqft.expert/building-contractors" />
                 </Head>
-                <ClientFeedbackList />
+                {/* <ClientFeedbackList /> */}
             </>
         </LPLayout>
     );
