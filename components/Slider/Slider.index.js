@@ -2,7 +2,7 @@ import Image from "next/image";
 import { forwardRef } from "react";
 import Slider from "react-slick";
 
-import ArrowImg from "../../public/assets/images/arrowWithCircle.svg";
+import ArrowImg from "../../public/assets/images/upvc/home/ArrowRightSymbol.png";
 
 import styles from "./Slider.module.scss";
 

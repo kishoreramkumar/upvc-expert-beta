@@ -3,28 +3,30 @@ import { convertMobileNo } from "../utils";
 export const landingPageOpacity = 0.6;
 
 export const landingPageConstant = {
-  title: `Quality Homes With <span class="primary">sqft.expert</span>`,
-  description: `Quality Buildings Come from Experts, and We solve all problems by our Best Design Ideas. We are an best <h1 class="inherit">house construction company</h1>`,
-  coverImage: "/assets/images/SitRelaxConstructyourDreamHomeWebSiteSlidingCoverPage.jpg",
-  mobileCoverImage: "/assets/images/SitRelaxConstructyourDreamHomeWebSiteSlidingMobileCoverPage.jpg",
+  title: `Quality UPVC Windows &amp; Doors Come With <span class="primary">UPVC.expert</span>`,
+  description: `Customize your UPVC Windows &amp; Doors with UPVC.expert. Quality doors and windows
+  come from experts. We have all the ideas and innovations to put it across when it comes
+  to UPVC windows and doors.`,
+  coverImage: "/assets/images/upvc/home/Banner &  Icons/Banner/UPVC Cover Page-3.jpg",
+  mobileCoverImage: "/assets/images/upvc/home/Banner &  Icons/Banner/UPVC mobile Cover Page-3.jpg",
   companyInsight: [
     {
       name: "Delivered Units",
-      icon: "/assets/images/flipCard/home.svg",
+      icon: "/assets/images/upvc/home/Banner &  Icons/Icons/Delivered Units Icon.png",
       count: "289",
       suffix: "+",
     },
     {
-      name: "Plan Approvals",
-      icon: "/assets/images/flipCard/planning.svg",
+      name: "Quality Checks",
+      icon: "/assets/images/upvc/home/Banner &  Icons/Icons/Quality Checks Icon.png",
       count: "549",
       suffix: "+",
     },
     {
-      name: "Structural Designs",
-      icon: "/assets/images/flipCard/archiDesign.svg",
-      count: "789",
-      suffix: "+",
+      name: "Transparency",
+      icon: "/assets/images/upvc/home/Banner &  Icons/Icons/Transparency Icon.png",
+      count: "100",
+      suffix: "%",
     },
   ],
 };
@@ -59,11 +61,14 @@ export const expertiseCardConstant = [
 export const productStylesDetails = {
   title: "Product Categories",
   data: [{
-    image: "https://d21xn5q7qjmco5.cloudfront.net/images/windowtype/thumb1626198704.png",
+
     title: "Windows",
-    path: "/windows"
+    path: "/windows",
+    icon: "/assets/images/upvc/home/animation/UPVC.Expert_Sliding-Window_Icon_Animation.gif",
+    image: "recentProject/AnushaHouseElevationSqftExpert.jpg",
   }, {
-    image: "https://d21xn5q7qjmco5.cloudfront.net/images/windowtype/thumb1626198680.png",
+    icon: "/assets/images/upvc/home/animation/UPVC.Expert_Doors-Icon_Animation.gif",
+    image: "recentProject/AnushaHouseElevationSqftExpert.jpg",
     title: "Doors",
     path: "/doors"
   }
@@ -526,47 +531,53 @@ export const testimonialList = [
   {
     name: "Bharath Ravilla",
     label:
-      "I was convinced with their discounts but when I met the Sqft Expert Team, only the company is not ready to give huge discounts and they explained that 'We cannot compromise on the quality, by giving huge discounts'",
+      `I was convinced with the discount offer. When I spoke to the UPVC.expert team,
+      they clearly explained they cannot compromise on the quality by giving huge
+      discounts.`,
   },
   {
     name: "kailash jain",
     label:
-      "When I talk about House construction, we received very clean & transparent quotation. The team has explained to me each and every point mentioned in the quotation.",
+      `We received a clean quotation from the company which explained every aspect
+      of the materials in a clear and effective manner.`,
   },
   {
     name: "Kishore Ramkumar",
     label:
-      "Honest, timely, trustworthy,very knowledgeable and friendly. I would definitely recommend this company to family and friends.",
+      `Trustworthy, timely, and honest company. I would definitely recommend this
+      company to my families and friends.`,
   },
   {
     name: "Packeer Mydeen",
     label:
-      "Best construction company, they helped me to make my thought convert into design and beautifully executed it",
+      `I was confused about which UPVC windows to go for? When I spoke to the team,
+      they suggested with the best options and alternatives. Very experienced and
+      knowledgeable professionals.`,
   },
 ];
 
 export const whyChooseUsList = [
   {
-    imgLink: "whyChooseUs/WCU1.svg",
-    title: "Money Safety",
+    imgLink: "upvc/home/Why Choose Us/2 Days Delivery_Icon.png",
+    title: "Quick delivery within 2 days",
     subTitle:
-      "We have micro stages that help customers to pay in smaller amounts.",
+      "We provide timely delivery of UPVC windows not exceeding beyond 2 days",
   },
   {
-    imgLink: "housePlan/DedicatedTeam.svg",
-    title: "Dedicated Team",
+    imgLink: "upvc/home/Why Choose Us/100SatisfactionIcon.png",
+    title: "Guaranteed 100% Satisfaction",
     subTitle:
-      "Dedicate A separate Team of Experts will be allocated to handle the site till end",
+      "You can be rest assured of 100% guaranteed satisfaction from our end",
   },
   {
-    imgLink: "whyChooseUs/WCU2.svg",
-    title: "Quality Guaranteed",
-    subTitle: "Our Engineers will perform 310 Quality Checks",
+    imgLink: "upvc/home/Why Choose Us/Accurate Testing Process.png",
+    title: "Accurate Testing Process",
+    subTitle: "We undertake stringent testing process that is precise and accurate",
   },
   {
-    imgLink: "whyChooseUs/WCU4.svg",
-    title: "No Delays",
-    subTitle: "We work on the Schedules and will be delivered",
+    imgLink: "upvc/home/Why Choose Us/Expartaise Installations Icon.png",
+    title: "Expertise Installations",
+    subTitle: "Our installations are carried out by industry experts for your safety and protection",
   },
 ];
 
@@ -589,18 +600,18 @@ export const recentProjectImages = [
   },
 ];
 
-export const constructionAdTitle = `We Provide Quality <br/><h2 class="inherit">House Construction</h2>`;
+export const constructionAdTitle = `We Provide Quality<br/> <h2 class="inherit">UPVC Windows and Doors</h2>`;
 
 export const BannerWithLabelConstant = {
   aboutUs: {
     title: "About Us",
-    subTitle: `It all started with an idea, that changed the way we look at construction today. We started with the aim of making the construction simple, transparent and reliable`,
+    subTitle: `It all started with an idea, that changed the way we look at construction today.We started with the aim of making the construction simple, transparent and reliable`,
     coverImage: "/assets/images/ContactAboutUsImg.png",
     mobileCoverImage: "/assets/images/ContactAboutUsImg.png",
   },
   contactUs: {
     title: "Get in Touch With Our Technical Experts",
-    subTitle: `We take our commitments to our users seriously. Reach us For any complaint or query.`,
+    subTitle: `We take our commitments to our users seriously.Reach us For any complaint or query.`,
     coverImage: "/assets/images/ContactAboutUsImg.png",
     mobileCoverImage: "/assets/images/ContactAboutUsImg.png",
   },
@@ -1020,26 +1031,26 @@ export const faqQuestions = {
   questions: [
     {
       title: "What is the average cost of constructing a home in Bangalore?",
-      description: `The cost of constructing a house in bangalore is completely dependent on two things<br/>
-      Area you wanted to construct<br/>
-      Let us assume that you wanted to build a house in 30X40 i.e. 1200 sqft.<br/>
-      Number of Floor you wanted to construct.<br/>
-      Now you wanted to construct a G+1 house in bangalore<br/>
-      Cost of construction in Bangalore<br/><br/>
+      description: `The cost of constructing a house in bangalore is completely dependent on two things < br />
+  Area you wanted to construct < br />
+    Let us assume that you wanted to build a house in 30X40 i.e. 1200 sqft.< br />
+      Number of Floor you wanted to construct.< br />
+        Now you wanted to construct a G + 1 house in bangalore < br />
+          Cost of construction in Bangalore < br /> <br />
       
-      Ground Floor<br/>
-      GF Parking - 220 sqft (We can utilise this area for car parking and two bikes)<br/>
-      GF Built-Up Area - 740 sqft (We can utilise this area for Big 1 BHK house or Small 2 BHK and can rent out in bangalore)<br/><br/>
+      Ground Floor < br />
+  GF Parking - 220 sqft(We can utilise this area for car parking and two bikes) <br />
+      GF Built - Up Area - 740 sqft(We can utilise this area for Big 1 BHK house or Small 2 BHK and can rent out in bangalore)<br/><br/>
       
-      First Floor<br/>
-      FF Built-up Area - 960 sqft (We can construct 2 BHK house along with balcony)<br/><br/>
+      First Floor < br />
+  FF Built - up Area - 960 sqft(We can construct 2 BHK house along with balcony)<br/><br/>
       
-      Approximate cost if we consider the basic package is 25L to 30L in bangalore 
-      `,
+      Approximate cost if we consider the basic package is 25L to 30L in bangalore
+  `,
     },
     {
       title: "What is the construction cost per sqft in Bangalore?",
-      description: `The construction cost per sqft in Bangalore starts from Rs 1559/sqft till Rs 2150/sqft.`,
+      description: `The construction cost per sqft in Bangalore starts from Rs 1559 / sqft till Rs 2150 / sqft.`,
     },
     {
       title: "How much does it cost to build a 30X40 house in Bangalore?",
@@ -1047,13 +1058,13 @@ export const faqQuestions = {
     },
     {
       title: "How much does it cost to build a 3 floor house in Bangalore?",
-      description: `Generally we consider the 3 floors in terms of G+2 buildings in bangalore. To build the G+2 floors with the site area of 30X40 i.e. 1200 sqft<br/><br/>
+      description: `Generally we consider the 3 floors in terms of G + 2 buildings in bangalore.To build the G + 2 floors with the site area of 30X40 i.e. 1200 sqft < br /> <br />
 
-      The approximate cost to construct a G+2 floors in Bangalore is Rs 45 Lakhs to 50 Lakhs.`,
+      The approximate cost to construct a G + 2 floors in Bangalore is Rs 45 Lakhs to 50 Lakhs.`,
     },
     {
       title: "How much does it cost to build a 20x30 house in Bangalore?",
-      description: `The cost to build a 20X30 house in bangalore i.e. 600 sqft plot area for only ground floor is around Rs 10 Lakhs. If you wanted to build G+1 floors then it would cost to build Rs 20 Lakhs.`,
+      description: `The cost to build a 20X30 house in bangalore i.e. 600 sqft plot area for only ground floor is around Rs 10 Lakhs.If you wanted to build G + 1 floors then it would cost to build Rs 20 Lakhs.`,
     },
     {
       title: "Is 4th floor construction allowed in Bangalore?",
@@ -1062,10 +1073,10 @@ export const faqQuestions = {
     {
       title:
         "How much does it cost to build a 30x40 duplex house in bangalore?",
-      description: `To construct a 30X40 duplex house in Bangalore would depend on your requirement of the parking.<br/>
-      I.e <br/>
-        1. If you opt for 2 car parking and one bike then the cost to construct a house would be approximately Rs 25 Lakhs to 30 Lakhs<br/>
-        2. If you opt for 1 car parking and one bike then the cost to construct a house would be approximately Rs 30 Lakhs to 35 Lakhs<br/>
+      description: `To construct a 30X40 duplex house in Bangalore would depend on your requirement of the parking.< br />
+  I.e < br />
+  1. If you opt for 2 car parking and one bike then the cost to construct a house would be approximately Rs 25 Lakhs to 30 Lakhs < br />
+    2. If you opt for 1 car parking and one bike then the cost to construct a house would be approximately Rs 30 Lakhs to 35 Lakhs < br />
       `,
     },
   ],
@@ -1084,12 +1095,12 @@ export const durabilitySafetyConst = {
   videoUrl: "https://www.youtube.com/embed/8S4s9JRprTM",
   thumbnail: "https://d21xn5q7qjmco5.cloudfront.net/images/services/rightimage/main-16330691511.webp",
   data: [
-    { img: "https://d21xn5q7qjmco5.cloudfront.net/images/services/1633597739.webp", name: "Low maintenance" },
-    { img: "https://d21xn5q7qjmco5.cloudfront.net/images/services/1633597739.webp", name: "Low maintenance" },
-    { img: "https://d21xn5q7qjmco5.cloudfront.net/images/services/1633597739.webp", name: "Low maintenance" },
-    { img: "https://d21xn5q7qjmco5.cloudfront.net/images/services/1633597739.webp", name: "Low maintenance" },
-    { img: "https://d21xn5q7qjmco5.cloudfront.net/images/services/1633597739.webp", name: "Low maintenance" },
-    { img: "https://d21xn5q7qjmco5.cloudfront.net/images/services/1633597739.webp", name: "Low maintenance" },
+    { img: "/assets/images/upvc/home/Durability & Safety/Noise Insulation Icon.png", name: "Noise Reduction" },
+    { img: "/assets/images/upvc/home/Durability & Safety/Energy Efficient Icon.png", name: "Energy Proficient" },
+    { img: "/assets/images/upvc/home/Durability & Safety/Rainwater Insulation Symbol.png", name: "Prevent Rainwater Seepage" },
+    { img: "/assets/images/upvc/home/Durability & Safety/Storm resistant icon.png", name: "Storm Defiant" },
+    { img: "/assets/images/upvc/home/Durability & Safety/low maintenance Icon.png", name: "Low in maintenance" },
+    { img: "/assets/images/upvc/home/Durability & Safety/Termite Free Icon.png", name: "Termite Proof" },
   ]
 }
 

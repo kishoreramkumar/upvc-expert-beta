@@ -25,11 +25,11 @@ const settings = {
     ],
 };
 
-const FeatureBenefit = ({ title = "Features & Benefits" }) => {
+const FeatureBenefit = ({ title = "Features & Benefits", desc }) => {
     return (
         <div className={styles.sliderWrapperFeatureBenefit}>
             <h2 className={styles.title}>{title}</h2>
-            <ExpandAccordian data={{ content: "features benefit Content" }} />
+            <ExpandAccordian data={{ content: desc }} />
             <SliderWrapper {...settings}>
                 {recentProjectImages.map((el, index) => (
                     <div key={index}>

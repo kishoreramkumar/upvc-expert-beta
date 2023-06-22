@@ -48,7 +48,7 @@ const RecentProjectCard = ({ image, title, icon, showBtn }) => {
   return (
     <div className={styles.productStyleCardWrapper}>
       <div className={styles.recentCardImg}>
-        <img src={`https://d21xn5q7qjmco5.cloudfront.net/images/windowtype/thumb1626198730.png`} alt="proj" loading="lazy" />
+        <img src={image} alt="proj" loading="lazy" />
       </div>
       <div className={styles.bottomWrapper}>
         <div className={styles.bottomLeftWrapper}>

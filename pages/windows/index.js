@@ -69,8 +69,9 @@ export default function Home() {
                     return {
                         name: productStyle.title,
                         icon: productStyle.icon,
-                        image: productStyle.img,
-                        description: "Sliding windows comprises of two or more than two horizontal sashes that are fitted with rollers at the base for smooth sideward track movement. Easy to operate, these windows offer panoramic views and a great amount of ventilation.",
+                        img: productStyle.img,
+                        desc: productStyle.desc,
+                        expandContent: productStyle.expandContent,
                         availableDesign: {
                             title: "Available Design",
                             data: [{
@@ -84,7 +85,9 @@ export default function Home() {
                                 title: "exclusive"
                             }]
 
-                        }, recommendedFor: {}, about: {}, featuresBenefits: {}
+                        }, recommendedFor: {}, about: {}, featuresBenefits: {
+                            desc: productStyle.featuresAndBenefits
+                        }
                     }
                 })
             } />

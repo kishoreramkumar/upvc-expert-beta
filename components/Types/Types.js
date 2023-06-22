@@ -38,24 +38,12 @@ const Types = ({ onSelectPackage, data }) => {
                 <div className={styles.tabsMain}>
                     <ExpandAccordian data={{
                         title: "",
-                        content: `<p>
-      Every year, a large number of individuals spend an exorbitant amount of money on upgrading and constructing new homes. Finding a <u>house construction company in Bangalore&nbsp;</u>is easy, but finding the <u>best house construction company</u> can prove to be slightly difficult as not every builder will fit your needs.&nbsp;
-  </p>
-  <p>
-      Finding the right kind of construction company will make the entire process of building a home from scratch smooth and hassle free. To make sure you have selected the <u>best house construction company in bangalore</u> check these parameters.&nbsp;
-  </p>
-  <p>Ideally a construction business is responsible for obtaining building permits, recruiting and overseeing subcontractors, and hiring designers and architects. They are also in charge of arranging the home inspections and exams.
-</p>
-<p>
-    Before you turn over your house to the firm, you must keep these things in mind:
-</p>
-
-`,
-                        expandContent: `Hi hellpo`,
+                        content: data[active]?.desc ?? "",
+                        expandContent: data[active]?.expandContent,
                     }} />
                     <AvailableDesign data={data[active].availableDesign.data} title={data[active].availableDesign.title} />
                     <RecommendedFor />
-                    <FeatureBenefit />
+                    <FeatureBenefit desc={data[active].featuresBenefits.desc} />
                     <ExpandAccordian data={{ title: " About This", content: "about us content", expandContent: "expanded content" }} />
                 </div>
             </div>

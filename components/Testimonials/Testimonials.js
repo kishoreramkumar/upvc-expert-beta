@@ -4,7 +4,7 @@ import styles from "./Testimonials.module.scss";
 import SectionTitle from "../SectionTitle/SectionTitle";
 import SliderWrapper from "../Slider/Slider.index";
 
-const Testimonials = ({ title = "Sqft.Expert reviews", testimonialList }) => {
+const Testimonials = ({ title = "Upvc.Expert reviews", testimonialList }) => {
   const settings = {
     infinite: true,
     speed: 800,
