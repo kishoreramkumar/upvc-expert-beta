@@ -12,19 +12,19 @@ export const landingPageConstant = {
   companyInsight: [
     {
       name: "Delivered Units",
-      icon: "/assets/images/upvc/home/BannerIcons/Icons/Delivered Units Icon.png",
+      icon: "/assets/images/upvc/home/BannerIcons/Icons/DeliveredUnitsIcon.png",
       count: "289",
       suffix: "+",
     },
     {
       name: "Quality Checks",
-      icon: "/assets/images/upvc/home/BannerIcons/Icons/Quality Checks Icon.png",
+      icon: "/assets/images/upvc/home/BannerIcons/Icons/QualityChecksIcon.png",
       count: "549",
       suffix: "+",
     },
     {
       name: "Transparency",
-      icon: "/assets/images/upvc/home/BannerIcons/Icons/Transparency Icon.png",
+      icon: "/assets/images/upvc/home/BannerIcons/Icons/TransparencyIcon.png",
       count: "100",
       suffix: "%",
     },
