@@ -7,24 +7,24 @@ export const landingPageConstant = {
   description: `Customize your UPVC Windows &amp; Doors with UPVC.expert. Quality doors and windows
   come from experts. We have all the ideas and innovations to put it across when it comes
   to UPVC windows and doors.`,
-  coverImage: "/assets/images/upvc/home/Banner &  Icons/Banner/UPVC Cover Page-3.jpg",
-  mobileCoverImage: "/assets/images/upvc/home/Banner &  Icons/Banner/UPVC mobile Cover Page-3.jpg",
+  coverImage: "/assets/images/upvc/home/BannerIcons/Banner/UPVC Cover Page-3.jpg",
+  mobileCoverImage: "/assets/images/upvc/home/BannerIcons/Banner/UPVC mobile Cover Page-3.jpg",
   companyInsight: [
     {
       name: "Delivered Units",
-      icon: "/assets/images/upvc/home/Banner &  Icons/Icons/Delivered Units Icon.png",
+      icon: "/assets/images/upvc/home/BannerIcons/Icons/Delivered Units Icon.png",
       count: "289",
       suffix: "+",
     },
     {
       name: "Quality Checks",
-      icon: "/assets/images/upvc/home/Banner &  Icons/Icons/Quality Checks Icon.png",
+      icon: "/assets/images/upvc/home/BannerIcons/Icons/Quality Checks Icon.png",
       count: "549",
       suffix: "+",
     },
     {
       name: "Transparency",
-      icon: "/assets/images/upvc/home/Banner &  Icons/Icons/Transparency Icon.png",
+      icon: "/assets/images/upvc/home/BannerIcons/Icons/Transparency Icon.png",
       count: "100",
       suffix: "%",
     },
