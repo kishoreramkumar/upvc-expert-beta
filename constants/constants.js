@@ -65,10 +65,10 @@ export const productStylesDetails = {
     title: "Windows",
     path: "/windows",
     icon: "/assets/images/upvc/home/animation/UPVC.Expert_Sliding-Window_Icon_Animation.gif",
-    image: "recentProject/AnushaHouseElevationSqftExpert.jpg",
+    image: "/assets/images/upvc/windows/Images/Bay.jpg",
   }, {
     icon: "/assets/images/upvc/home/animation/UPVC.Expert_Doors-Icon_Animation.gif",
-    image: "recentProject/AnushaHouseElevationSqftExpert.jpg",
+    image: "/assets/images/upvc/windows/Images/Bay.jpg",
     title: "Doors",
     path: "/doors"
   }
