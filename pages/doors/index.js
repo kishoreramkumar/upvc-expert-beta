@@ -27,7 +27,7 @@ import {
     faqQuestions,
     howItWorks,
     colorAndFinish
-} from "../../constants/window.constant";
+} from "../../constants/door.constant";
 import SeoContent from "../../components/SeoContent/SeoContent";
 import ProductStyles from "../../components/ProductStyles/ProductStyles";
 import ImageGallery from "../../components/ImageGallery/ImageGallery";
@@ -71,6 +71,7 @@ export default function Home() {
                         icon: productStyle.icon,
                         img: productStyle.img,
                         desc: productStyle.desc,
+                        aboutUsContent: productStyle.aboutUsContent ?? {},
                         expandContent: productStyle.expandContent,
                         availableDesign: {
                             title: "Available Design",

@@ -72,6 +72,7 @@ export default function Home() {
                         img: productStyle.img,
                         desc: productStyle.desc,
                         expandContent: productStyle.expandContent,
+                        aboutUsContent: productStyle.aboutUsContent,
                         availableDesign: {
                             title: "Available Design",
                             data: [{

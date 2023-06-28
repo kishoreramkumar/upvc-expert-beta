@@ -7,7 +7,7 @@ import AvailableDesign from "../AvailableDesign/AvailableDesign";
 import RecommendedFor from "../RecommendedFor/RecommendedFor";
 import FeatureBenefit from "../FeatureBenefit/FeatureBenefit";
 
-const Types = ({ onSelectPackage, data }) => {
+const Types = ({ onSelectPackage, data, aboutUsContent }) => {
     const [active, setActive] = useState(0);
     return (
         <div className={styles.typesContainer}>
@@ -44,7 +44,7 @@ const Types = ({ onSelectPackage, data }) => {
                     <AvailableDesign data={data[active].availableDesign.data} title={data[active].availableDesign.title} />
                     <RecommendedFor />
                     <FeatureBenefit desc={data[active].featuresBenefits.desc} />
-                    <ExpandAccordian data={{ title: " About This", content: "about us content", expandContent: "expanded content" }} />
+                    <ExpandAccordian data={{ title: data[active]?.aboutUsContent?.title, content: data[active]?.aboutUsContent.content, expandContent: data[active]?.aboutUsContent.expandContent }} />
                 </div>
             </div>
         </div>

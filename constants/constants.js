@@ -3,8 +3,8 @@ import { convertMobileNo } from "../utils";
 export const landingPageOpacity = 0.6;
 
 export const landingPageConstant = {
-  title: `Quality UPVC Windows &amp; Doors Come With <span class="primary">UPVC.expert</span>`,
-  description: `Customize your UPVC Windows &amp; Doors with UPVC.expert. Quality doors and windows
+  title: `Quality UPVC Windows & Doors Come With <span class="primary">UPVC.expert</span>`,
+  description: `Customize your UPVC Windows & Doors with UPVC.expert. Quality doors and windows
   come from experts. We have all the ideas and innovations to put it across when it comes
   to UPVC windows and doors.`,
   coverImage: "/assets/images/upvc/home/BannerIcons/Banner/UPVC Cover Page-3.jpg",
@@ -605,13 +605,16 @@ export const constructionAdTitle = `We Provide Quality<br/> <h2 class="inherit">
 export const BannerWithLabelConstant = {
   aboutUs: {
     title: "About Us",
-    subTitle: `It all started with an idea, that changed the way we look at construction today.We started with the aim of making the construction simple, transparent and reliable`,
+    subTitle: `An idea that struck us initially soon became a reality. Hence, began our journey and
+    there was no looking back. Our prime motto is to provide a world-class, stylish, and
+    high-end UPVC windows and doors.`,
     coverImage: "/assets/images/ContactAboutUsImg.png",
     mobileCoverImage: "/assets/images/ContactAboutUsImg.png",
   },
   contactUs: {
     title: "Get in Touch With Our Technical Experts",
-    subTitle: `We take our commitments to our users seriously.Reach us For any complaint or query.`,
+    subTitle: `Reach us or speak to our experts for any query or complaints and we will be pleased to
+    help you in every possible way.`,
     coverImage: "/assets/images/ContactAboutUsImg.png",
     mobileCoverImage: "/assets/images/ContactAboutUsImg.png",
   },

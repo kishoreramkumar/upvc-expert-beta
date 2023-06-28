@@ -3,28 +3,29 @@ import { convertMobileNo } from "../utils";
 export const landingPageOpacity = 0.6;
 
 export const landingPageConstant = {
-    title: `Quality Homes With <span class="primary">sqft.expert</span>`,
-    description: `Quality Buildings Come from Experts, and We solve all problems by our Best Design Ideas. We are an best <h1 class="inherit">house construction company</h1>`,
+    title: `Quality Doors comes with <span class="primary">UPVC.expert</span>`,
+    description: `When it comes to UPVC doors, we are the best in the business. Our UPVC doors come
+    with unbeatable features and safety standards that are par with excellence.`,
     coverImage: "/assets/images/SitRelaxConstructyourDreamHomeWebSiteSlidingCoverPage.jpg",
     mobileCoverImage: "/assets/images/SitRelaxConstructyourDreamHomeWebSiteSlidingMobileCoverPage.jpg",
     companyInsight: [
         {
             name: "Delivered Units",
-            icon: "/assets/images/flipCard/home.svg",
+            icon: "/assets/images/upvc/home/BannerIcons/Icons/DeliveredUnitsIcon.png",
             count: "289",
             suffix: "+",
         },
         {
-            name: "Plan Approvals",
-            icon: "/assets/images/flipCard/planning.svg",
+            name: "Quality Checks",
+            icon: "/assets/images/upvc/home/BannerIcons/Icons/QualityChecksIcon.png",
             count: "549",
             suffix: "+",
         },
         {
-            name: "Structural Designs",
-            icon: "/assets/images/flipCard/archiDesign.svg",
-            count: "789",
-            suffix: "+",
+            name: "Transparency",
+            icon: "/assets/images/upvc/home/BannerIcons/Icons/TransparencyIcon.png",
+            count: "100",
+            suffix: "%",
         },
     ],
 };
@@ -63,12 +64,14 @@ export const productStylesDetails = {
         image: "/assets/images/upvc/windows/Images/Sliding.jpg",
         title: " Sliding",
         path: "/windows",
-        desc: `Sliding windows consists of two or more horizontal sashes with rollers fitted at the base
-        for a smooth sideward track movement. These windows offer panoramic view, good
-        ventilation, and easy to operate. The windows have always been the most sought-after
-        choice for many households. Sliding windows add a touch of class to any room as they
-        elevate the space without compromising on the requirements. They are easy to operate
-        with flexible movements.`,
+        desc: `In Sliding doors two or more frames slide horizontally on tracks to the left or the right.
+        The doors are slightly raised above the track for smooth slide and also preventing dust
+        from settling down in the track. Sliding doors are ideal for homes that require space-
+        economy.
+        Sliding doors are affordable option to bring more light into your home, as these cost
+        effective doors can support large spans of glass and have a relatively slim vertical
+        profile. This allows you to maximise the amount of light that can enter your home,
+        showcasing the space to best effect.`,
         expandContent: "",
         featuresAndBenefits: `UPVC.expert windows provide smooth operation due to less friction between the
         rollers. Sliding UPVC windows have been the most popular option for several years.
@@ -76,62 +79,103 @@ export const productStylesDetails = {
         insulation, thermal efficient, and low maintenance have made the best choice among
         windows. Sliding UPVC windows is ideal for kitchen, balcony, bedrooms, large openings
         or any other desired area as this will enhance the aesthetic appeal of your space.`,
+        aboutUsContent: {
+            title: "About Sliding UPVC Doors",
+            content: `Sliding UPVC doors are strong and require less
+            maintenance. They are durable, alluring, and bring about a sense of security to
+            the home. One of the notable features of the door is that it comes with multi-
+            chamber lock system, and with a double-toughened glass that keeps the heat and
+            sound at bay.`,
+            expandContent: ""
+        }
     }, {
         icon: "/assets/images/upvc/windows/CasementWindow.png",
         image: "/assets/images/upvc/windows/Images/Casement.jpg",
         title: " Casement",
         path: "/doors",
-        desc: `One of the prime features of Casement windows is their ability to open inward and
-        outwards, that allow free air-flow and ventilation. Casement windows are gaining
-        immense popularity in residential homes due to their futuristic design and functionality.
-        They are also highly energy-efficient and are available in single or double pane options.
-        Moreover, they are also available in numerous designs offering a wide range of choices
-        to suit your preferences.`,
+        desc: `Making a great first impression on your door step, exclusively designed, UPVC.expert
+        doors are the perfect way to add charm and character to your home. Doors keep your
+        home wonderfully warm and quiet. Plus, you’ll find that our doors are virtually
+        maintenance-free, meaning you can enjoy them with little fuss for years to come.
+        Also helping you feel extra safe with security features like multipoint locking, extremely
+        solid hinges and toughened/laminated safety glasses to help keep you and your family
+        extra safe.`,
         expandContent: "",
         featuresAndBenefits: `The stylish and contemporary casement windows are known for high-efficiency. They
         also come with additional safety features like grills and multi-lock points. The product is
         highly durable and long-lasting. The UPVC sliding windows do not expand or contract
         due to changing weather conditions. The windows are recommended for bathrooms,
-        bedrooms, study room, and kitchen.`
+        bedrooms, study room, and kitchen.`,
+        aboutUsContent: {
+            title: "About UPVC Casement Doors",
+            content: `UPVC Casement doors are totally secure and insulated.
+            They also enhance the aesthetic appeal of your home to a great extent. These
+            new generation UPVC Casement doors are designed for large openings and come
+            in numerous colours and designs catering to individual preferences.`,
+            expandContent: ""
+        }
     }
         , {
         icon: "/assets/images/upvc/windows/TiltTurnWindown.png",
         image: "/assets/images/upvc/windows/Images/TiltTurnWindow.jpg",
-        title: " Tilt & Turn",
+        title: " Slide & Fold",
         path: "/doors",
-        desc: ` When it comes to versatility, Tilt &amp; Turn UPVC windows are the most renowned one’s in
-        this category. As the name suggests, this type of windows features a sash that can tilt
-        and open at a specific angle from the top and also swing inward. With high-end
-        features, Tilt &amp; Turn windows display elegance and style. There is a huge demand for Tilt
-        &amp; Turn windows for their various benefits and aesthetic appeal.`,
+        desc: ` All door frames can be folded to save space and pushed to the side over a total width of
+        up to 6 metres. Slide&Fold doors offer generous and barrier free access to terraces,
+        conservatories, wherever needed. Fold and Slide doors are also being increasingly used
+        in homes. Besides helping to prevent thefts, the concealed screw fixing of the frame
+        hinges on the Fold and Slide doors also enhances the overall appearance elegantly.
+        These doors come with inward or outward opening options.`,
         expandContent: "",
-        featuresAndBenefits: `Tilt &amp; Turn windows are perfect for winter and are highly energy efficient. There is a
-        huge demand for tilt &amp; turn UPVC windows in recent times due to their numerous
-        benefits and the aesthetic appeal they bring to the living space. UPVC tilt &amp; turn
+        featuresAndBenefits: `Tilt & Turn windows are perfect for winter and are highly energy efficient. There is a
+        huge demand for tilt & turn UPVC windows in recent times due to their numerous
+        benefits and the aesthetic appeal they bring to the living space. UPVC tilt & turn
         windows are ideally recommended for living rooms, bedrooms, small spaces, and
         washrooms. The UPVC windows are exceptionally stylish and give a contemporary look
         to any space. They are termite proof, dust proof, and does not corrode, fade or rust due
         to passage of time.`,
+        aboutUsContent: {
+            title: "About UPVC Slide & Fold Doors",
+            content: `These doors give your home a stand out appearance.
+            Slide & Fold doors bring a brilliant addition for your home as they help create a
+            stunning and a contemporary environment. This sleek sliding and folding doors
+            allows more usable space in the room as compared to conventional door designs.`,
+            expandContent: ""
+        }
     }
         , {
         icon: "/assets/images/upvc/windows/CombinationWindow.png",
         image: "/assets/images/upvc/windows/Images/Combination.jpg",
-        title: " Combination",
+        title: " Lift & Slide",
         path: "/doors",
-        desc: `Combination UPVC windows are one of a type window design that combine a mix of
-        casement, fixed, and sliding windows. You have the flexibility to select from various designs and sizes, tailoring to your desired specifications and preferences. If you are
-        looking to maximise the appearance of your home or enhance the functionality of the
-        living space, Combination UPVC windows provide a versatile options.`,
+        desc: `The stand-out convenience feature of “Lift & Slide” door is the extremely simple
+        movement of large and heavy doors. The space-saving opening of balcony doors with
+        Lift & Slide sashes permits optimum use of space, as no sashes project into the room.
+        Thanks to the generous door dimensions, as plenty of light can enter the room which, together with the refined design, gives discerning customers a feeling of well-being. Lift
+        & Slide doors allow barrier-free access to terraces or balconies, and can also be used
+        just as room dividers. Concealed night ventilation: Rotating the door handle upwards
+        opens only the upper seal, allowing simple yet efficient ventilation that’s not visible
+        from outside the sliding doors remain fully locked and neither rain nor dirt nor insects
+        can intrude.`,
         expandContent: "",
         featuresAndBenefits: `The prime feature of combination window is it contains air-tight seals that keep the
         noise, dust, heat, and rainwater at bay. The UPVC windows add to the overall aesthetic
         appeal of the space and are durable. They also come with a bug mesh to safeguard
         against flies and insects. Being energy-efficient they allow ample natural light into the
-        home. They are most suitable for bedrooms and wide/tall apertures.`
+        home. They are most suitable for bedrooms and wide/tall apertures.`,
+        aboutUsContent: {
+            title: "About Lift & Slide UPVC Doors",
+            content: `The doors make a sleek appearance and are easily
+            accessible for all people. They are elegantly designed and look stylish. They
+            increase the beauty of the facade of your home to a new level. Easy to maintain,
+            durable, and weather resistant make this Lift & Slide UPVC doors the most
+            preferred choice for homeowners.`,
+            expandContent: ""
+        }
     }, {
         icon: "/assets/images/upvc/windows/VillaWindow.png",
         image: "/assets/images/upvc/windows/Images/Villa.jpg",
-        title: "  Villa",
+        title: " Corner Slider",
         path: "/doors",
         desc: `Villa UPVC windows are equipped with a twin sash, bug mesh, and grill integrated in
         their design. Villa UPVC windows are known for elegance, style, and security. The
@@ -142,11 +186,21 @@ export const productStylesDetails = {
         featuresAndBenefits: `The windows offer a combination of style, elegance, and security. The only windows
         equipped with a double-sash bug mesh along with integrated grill for added safety and
         security. The windows are not just appealing, but also ensure adequate ventilation.
-        Ideally suited for living rooms and bedrooms.`
+        Ideally suited for living rooms and bedrooms.`,
+        aboutUsContent: {
+            title: "About UPVC Corner Slider Doors",
+            content: `These doors are perfect for facilitating an open space
+            design. They make the room look more spacious and well ventilated. The UPVC
+            doors also allow for a panoramic view of the surrounding landscape. They are
+            sturdy, durable, and require very less maintenance. UPVC.expert ensure that the
+            cost of our UPVC corner slider doors is more than justified as we promise to offer
+            you only the best.`,
+            expandContent: ""
+        }
     }, {
         icon: "/assets/images/upvc/windows/BayWindow.png",
         image: "/assets/images/upvc/windows/Images/Bay.jpg",
-        title: "  Bay",
+        title: " Low Threshold Slider",
         path: "/doors",
         desc: `BAY windows are known to bring a sense of elegance to any room. The windows can be
         crafted into square, polygon, semi-hexagonal, or semi-octagonal bays. They are one of
@@ -158,11 +212,20 @@ export const productStylesDetails = {
         UPVC windows are suited for living rooms, bedrooms, and other small spaces in the
         home. Another prominent feature of this window is it can be crafted into square,
         polygon, semi-hexagonal, and semi-octagonal window bays. Designers are coming up
-        with many types of bay windows as there is a huge demand in the market.`
+        with many types of bay windows as there is a huge demand in the market.`,
+        aboutUsContent: {
+            title: "About UPVC Low Threshold Slider Doors",
+            content: `They are the most well-known UPVC door
+            designs that people opt for these days. An uninterrupted view of the outside
+            world and easy accesses to all makes this door a huge hit among all generations
+            of people. Some of the main features include high-level of security, adequate
+            ventilation, and weather resistant.`,
+            expandContent: ""
+        }
     }, {
         icon: "/assets/images/upvc/windows/FixedWindow.png",
         image: "/assets/images/upvc/windows/Images/Fixed.jpg",
-        title: "  Fixed",
+        title: " Ultra Slim Slider",
         path: "/doors",
         desc: `Fixed UPVC windows are stationary, non-opening windows designed to allow natural
         light to a room and offer an unhindered view of the outside world. The windows are
@@ -174,23 +237,19 @@ export const productStylesDetails = {
         great extent. Moreover, Fixed UPVC windows make your home energy efficient and help
         save energy cost. They also keep the noise, dust, heat, and pollution at bay and act as a
         barrier against rainwater seepage and gusty winds. They are suitable for living rooms,
-        bedrooms, and store rooms.`
-    }, {
-        icon: "/assets/images/upvc/windows/GlasstoGlassWindow.png",
-        image: "/assets/images/upvc/windows/Images/GlasstoGlass.jpg",
-        title: "  Glass to Glass",
-        path: "/doors",
-        desc: `Glass-to-Glass UPVC windows consists of two panes of full-length glass that meet at 90 0
-        angles at the corner of the room. To ensure an uninterrupted view of the outdoors, the
-        glasses are joined without the use of any hinges. These windows can transform any
-        space come alive by shaping the boundaries between the interiors and exteriors.`,
-        expandContent: "",
-        featuresAndBenefits: `Glass to Glass UPVC windows can transform any space come alive between the interiors
-        and exteriors. The windows are durable, energy-efficient, and give adequate protection
-        against rainwater seepage. Glass-to-Glass windows do not rust, corrode, or rot. Since
-        they require less maintenance, it helps them look as good as new even after many
-        years. One can find many designs and colour options in glass-to-glass UPVC windows.`
-    }
+        bedrooms, and store rooms.`,
+        aboutUsContent: {
+            title: "About UPVC Ultra Slim Slider Doors",
+            content: `The doors are designed to offer a great viewing
+            experience with maximised visibility. The foil finish offers a seamless transition
+            alongside high-performance features. Available in different designs and styles,
+            these slider doors blend seamlessly into your existing architecture and
+            effortlessly add to the aesthetics of your living space. Ultra slim slider doors come
+            with features like high energy efficiency, durability, noise insulation, termite-free,
+            and do not warp, fade, or flake.`,
+            expandContent: ""
+        }
+    },
     ]
 };
 
@@ -1143,54 +1202,356 @@ export const faqQuestions = {
     title: "Frequently Asked Questions",
     questions: [
         {
-            title: "What is the average cost of constructing a home in Bangalore?",
-            description: `The cost of constructing a house in bangalore is completely dependent on two things<br/>
-      Area you wanted to construct<br/>
-      Let us assume that you wanted to build a house in 30X40 i.e. 1200 sqft.<br/>
-      Number of Floor you wanted to construct.<br/>
-      Now you wanted to construct a G+1 house in bangalore<br/>
-      Cost of construction in Bangalore<br/><br/>
-      
-      Ground Floor<br/>
-      GF Parking - 220 sqft (We can utilise this area for car parking and two bikes)<br/>
-      GF Built-Up Area - 740 sqft (We can utilise this area for Big 1 BHK house or Small 2 BHK and can rent out in bangalore)<br/><br/>
-      
-      First Floor<br/>
-      FF Built-up Area - 960 sqft (We can construct 2 BHK house along with balcony)<br/><br/>
-      
-      Approximate cost if we consider the basic package is 25L to 30L in bangalore 
+            title: "What are the benefits of UPVC windows?",
+            description: `<p>
+            UPVC.expert brings to you an extensive array of gorgeous and elegantly designed
+            <br>
+            windows that will not just transform the getup of your home, but also gives ultimate
+            <br>
+            protection from the harsh elements of the outside world. Did you know there are more
+            <br>
+            than 1000+ designs to choose from to keep noise, dust, rain, and pollution at bay and
+            <br>
+            also at the same time reduce the energy costs? UPVC.expert offers the most innovative
+            <br>
+            UPVC window designs in the country, ranging from sliders, casement windows to bay
+            <br>
+            windows and tilt-and-turn windows. You can browse through the designs and zero in
+            <br>
+            the one you choose to perfectly blend in with your home interiors. Come and explore
+            <br>
+            UPVC.expert’s world of UPVC windows, install them, and make all the difference for
+            <br>
+            your home interiors.
+        </p>
+        <p>
+            <br>
+            Now let us see what benefits an UPVC window offers to the users which are discussed
+            <br>
+            below;
+        </p>
+        <ul>
+            <li>
+                Low in maintenance – When it comes to maintenance, UPVC windows are low in
+                <br>
+                maintenance. Since they are made up of unplasticised vinyl polymer, they are
+                <br>
+                easy to maintain and do not burn a huge hole in your pocket.
+            </li>
+            <li>
+                UPVC windows are very durable as a material for home fixtures.
+            </li>
+            <li>
+                UPVC windows are corrosion-free and do not rot over a period of time unlike
+                <br>
+                other materials or wood.
+            </li>
+            <li>
+                UPVC windows do not crumble or erupt due to changing weather conditions.
+            </li>
+            <li>
+                When it comes to beauty, nothing matches the elegance of UPVC windows
+                <br>
+                Another major highlights of UPVC windows is that they offer good thermal
+                <br>
+                insulation
+            </li>
+            <li>
+                UPVC windows are naturally resistant to moisture, mould, mildew, and other
+                <br>
+                atmospheric pollutions
+            </li>
+        </ul>
       `,
         },
         {
-            title: "What is the construction cost per sqft in Bangalore?",
-            description: `The construction cost per sqft in Bangalore starts from Rs 1559/sqft till Rs 2150/sqft.`,
+            title: "How long do UPVC windows last for?",
+            description: `UPVC windows, also known as vinyl windows, are known for their durability and
+            longevity. On average, well-maintained UPVC windows can last for approx 20-30 years.
+            However, their lifespan can vary depending on various factors such as the quality of the
+            materials used, the installation method, the climate conditions, and the level of
+            maintenance. Here are some factors that can affect the lifespan of UPVC windows:
+            
+            1. Quality: High-quality UPVC windows tend to have better resistance to UV rays,
+            discolouration, and warping which can prolong their lifespan.
+            2. Installation: Proper installation is crucial for the long-term performance of UPVC
+            windows. Improper installations can lead to issues like air leaks, water
+            infiltration, and structural problems that may reduce their lifespan.
+            3. Maintenance: Regular cleaning and maintenance can help expand the lifespan of
+            UPVC windows. This includes cleaning the frames, lubricating moving parts, and
+            ensuring that the weather-stripping and seals are intact.
+            4. Climate: UPVC windows are known for their resistance to various weather
+            conditions, including harsh sunshine, seasonal rains, and temperature
+            fluctuations. However, extreme climates or exposure to severe weather events
+            can potentially reduce their lifespan.`,
         },
         {
-            title: "How much does it cost to build a 30X40 house in Bangalore?",
-            description: `As it would cost to construct a 30X40 i.e. 1200 sqft in bangalore is Rs 25 Lakhs to Rs 30 Lakhs.`,
+            title: "What are the different types of UPVC windows that one can choose from?",
+            description: `UPVC.expert has a number of styles in UPVC windows that one can choose from based
+            on one’s preference, budget, and requirements. Here are some common types;
+            1. Casement Windows: Casement windows are hinged at the side and open
+            outward like a door. They offer excellent ventilation and can be easily opened
+            and closed with a crank door. Casement windows are versatile and suitable for
+            various architectural styles.
+            2. Sliding Windows: Sliding windows consists of two or more horizontal sashes that
+            slide past each other. They are easy to operate and provide a wide view when
+            fully opened. Sliding windows are a popular choice for contemporary homes and
+            spaces with limited exterior clearance.
+            3. Awning Windows: Awning windows are hinged at the top and open outward,
+            creating a small ‘awning’ effect. They are often used in combination with other
+            window styles or placed together on walls to allow for ventilation while
+            maintaining privacy and protection from external factors.
+            4. Bay Windows: Bay windows are a combination of three or more windows that
+            project outward from the wall, creating a curved or angular shape. They add an
+            architectural interest to a room, increase natural light, and offer expansive views.
+            Bay windows typically have a larger central fixed window, while bow windows
+            have multiple operable windows.
+            5. Tilt and Turn Windows: These windows offer versatility and functionality. They
+            can be opened inward from the side like a casement window or tilted from the
+            top for ventilation. This design allows for easy cleaning and provides various
+            options for airflow control.
+            6. Fixed Windows: Also known as picture windows, they do not open or close as
+            they are fixed in nature. They are designed to let natural light and provide
+            unobstructed views. Fixed windows are commonly used in combination with
+            other window types to create larger window configurations.
+            7. Sash Windows: Sash windows have one or more movable panels, called sashes,
+            which slide vertically to open and close. They are often found in traditional or
+            historical buildings and offer a classic, elegant look.
+            Each window has their own advantages and features, so it’s important to consider your
+            specific requirements and consult our professionals to determine the most suitable
+            option for your home or project.`,
         },
         {
-            title: "How much does it cost to build a 3 floor house in Bangalore?",
-            description: `Generally we consider the 3 floors in terms of G+2 buildings in bangalore. To build the G+2 floors with the site area of 30X40 i.e. 1200 sqft<br/><br/>
-
-      The approximate cost to construct a G+2 floors in Bangalore is Rs 45 Lakhs to 50 Lakhs.`,
+            title: "What kind of maintenance do UPVC windows require?",
+            description: `<p>
+            UPVC windows are relatively low-maintenance compared to other types of windows.
+            <br>
+            However, regular care and maintenance can help ensure their optimal performance and
+            <br>
+            longevity. Here are some of the maintenance tasks that one can consider for UPVC
+            <br>
+            windows.
+        </p>
+        <ul>
+            <li>
+                Cleaning: Clean your UPVC windows regularly to remove dirt, dust, and grease
+                <br>
+                that might have settled over a period of time. Use a mild soap detergent or an
+                <br>
+                UPVC cleaner mixed with water and a soft cloth or sponge to clean the frames
+                <br>
+                and the glass. Avoid using abrasive materials or any form of harsh chemicals that
+                <br>
+                could damage the UPVC surfaces or window seals.
+            </li>
+            <li>
+                Lubrication: Periodically, lubricate the moving parts of the UPVC windows like
+                <br>
+                hinges, handles, cranks, and locks to ensure smooth operation. Use a silicone-
+                <br>
+                based lubricant or a recommended UPVC lubricant. Be sure to follow the
+                <br>
+                manufacturer’s instructions and avoid applying excessive amounts of lubricants.
+            </li>
+            <li>
+                Check Seals &amp; Weather-stripping: Check and inspect the seals and weather-
+                <br>
+                stripping around your UPVC windows. Over time, these components can wear
+                <br>
+                out or become damaged, leading to drafts and energy loss. Replace any worn or
+                <br>
+                damaged seals to maintain proper insulation and prevent air or water leaks.
+            </li>
+            <li>
+                Adjust &amp; tighten the hardware: Check for the hardware components like hinges,
+                <br>
+                handles, locks, and cranks for proper alignment and tightness. If you notice any
+                <br>
+                loose or misaligned parts, tighten them or consult an expert for adjustments. This
+                <br>
+                will ensure that the windows operate smoothly and securely.
+            </li>
+            <li>
+                Inspect the glass panels: Inspect the glass panels occasionally for any cracks,
+                <br>
+                damages, or chips. If you notice any issues, consider reaching out to an UPVC
+                <br>
+                expert to address the issues promptly.
+            </li>
+        </ul>`,
         },
         {
-            title: "How much does it cost to build a 20x30 house in Bangalore?",
-            description: `The cost to build a 20X30 house in bangalore i.e. 600 sqft plot area for only ground floor is around Rs 10 Lakhs. If you wanted to build G+1 floors then it would cost to build Rs 20 Lakhs.`,
+            title: "Are UPVC Windows Safe?",
+            description: `UPVC windows are considered safe because of their multi-point, high-security locks. The
+            locks are generally fitted into the core steel portion of the window frame making the
+            UPVC windows air-tight. Not only are they challenging to break, they also enhance
+            sound insulation as well as thermal insulation in homes. Additionally, the UPVC is
+            naturally a fire-retardant material. In case of a fire accident, unlike wood, it will not act
+            as fuel to the fire. An UPVC windows manufacturer normally integrates double glazed
+            glasses. You can further use security systems like intruder alarms to increase the safety
+            aspects of your windows.`,
         },
         {
-            title: "Is 4th floor construction allowed in Bangalore?",
-            description: `Yes, It is allowed to construct the fourth floor in Bangalore, but it completely depends on your area.`,
+            title: "Are UPVC Windows fire retardant?",
+            description: `Since UPVC does not burn as quickly as wood and has high thermal insulation, it is
+            considered as a fire retardant. The material is considered to be safe because of its self-
+            extinguishing properties. If there is an accident leading to fire break-up, UPVC will not
+            burn nor act as an insulator to spread the flames.`,
         },
         {
             title:
-                "How much does it cost to build a 30x40 duplex house in bangalore?",
-            description: `To construct a 30X40 duplex house in Bangalore would depend on your requirement of the parking.<br/>
-      I.e <br/>
-        1. If you opt for 2 car parking and one bike then the cost to construct a house would be approximately Rs 25 Lakhs to 30 Lakhs<br/>
-        2. If you opt for 1 car parking and one bike then the cost to construct a house would be approximately Rs 30 Lakhs to 35 Lakhs<br/>
-      `,
+                "Are UPVC Windows better than wood?",
+            description: `<p>
+            Yes, experts agree that UPVC windows are better than wood for the following reasons.
+            <br>
+            &nbsp;
+        </p>
+        <ul>
+            <li>
+                They are termite resistant hence, there is no chance of infestation
+            </li>
+            <li>
+                The windows and doors are easy to maintain and clean. Just take a soft cloth and
+                <br>
+                wipe. In case of staining, one can use mild cleaning agent with a damp cloth.
+            </li>
+            <li>
+                UPVC provides better thermal and sound insulation, making it ideal for all
+                <br>
+                climates and noisy places.
+            </li>
+            <li>
+                Quality UPVC doors and windows offer an air-tight installation, therefore
+                <br>
+                preventing water from seeping indoors.
+            </li>
+            <li>
+                Nowadays, many people opt for minimalist and trendy designs and UPVC will not
+                <br>
+                let you down when it comes to style and designs. UPVC doors and windows are a
+                <br>
+                better match to the interiors than wood.
+            </li>
+        </ul>`,
+        },
+        {
+            title: "How do I know if my windows need replacement?",
+            description: `You would know it is time to replace your windows if they are damaged, broken,
+            or look worn out. If you have installed UPVC windows and doors from
+            UPVC.expert, we advise you to get in touch with our representatives and request
+            a home visit from our installers.`,
+        },
+        {
+            title: "How do I secure my Casement windows?",
+            description: `UPVC.expert casement windows come with galvanised steel cores that are
+            difficult to break, providing the windows with an additional protection layer. For
+            enhanced security, close the casement windows properly throughout the day
+            especially at night before going to sleep. You may install an auxiliary lock in
+            addition to a standard lock.`,
+        },
+        {
+            title: "Are Casement windows worth the money?",
+            description: `Yes, UPVC Casement windows are worth the money you spend. Unlike wooden
+            windows, these windows will not warp and one need not polish them every few
+            years. Even though, the direct cost is low, these will continue to benefit in the
+            long run.`,
+        },
+        {
+            title: "What are Casement doors and what are its features and benefits?",
+            description: `<p>
+            Making a great first impression on your door step, exclusively designed, UPVC
+            <br>
+            Casement doors are the perfect way to add charm and character to your home.
+            <br>
+            Doors keep your home wonderfully warm and quiet. Plus, you’ll find that our
+            <br>
+            doors are virtually maintenance-free, meaning you can enjoy them with little fuss
+            <br>
+            for years to come.
+            <br>
+            Also helping you feel extra safe with security features like multipoint locking,
+            <br>
+            extremely solid hinges and toughened/laminated safety glasses to help keep you
+            <br>
+            and your family extra safe. Following are the features and benefits;
+        </p>
+        <ul>
+            <li>
+                &nbsp;Energy-efficient:&nbsp;Casement doors are deemed one of the most energy-efficient
+                <br>
+                design options as air leaks are low. This is perfect for trapping both warm and
+                <br>
+                cold air within the property.
+            </li>
+            <li>
+                Unhindered views and elegant design:&nbsp;The frames on casement doors do not
+                <br>
+                require a central rail, providing unobstructed views and making them a desirable
+                <br>
+                door style for many homeowners. The distinct out-swing opening makes the
+                <br>
+                home appear elegant.
+            </li>
+        </ul>`,
+        },
+        {
+            title: "Why choose UPVC.expert’s for Sliding Doors?",
+            description: `<p>
+            In Sliding doors two or more frames slide horizontally on tracks to the left or the right.
+            <br>
+            The doors are slightly raised above the track for smooth slide and also preventing dust
+            <br>
+            from settling down in the track. Sliding doors are ideal for homes that require space-
+            <br>
+            economy.
+            <br>
+            Sliding doors are affordable option to bring more light into your home, as these cost
+            <br>
+            effective doors can support large spans of glass and have a relatively slim vertical
+            <br>
+            profile.
+            <br>
+            This allows you to maximise the amount of light that can enter your home, showcasing
+            <br>
+            the space to best effect.
+            <br>
+            UPVC.expert offers world-class uPVC sliding doors and windows to give your home an
+            <br>
+            elegant and aesthetically pleasing look.
+        </p>
+        <ul>
+            <li>
+                <strong>Unmatched Quality</strong>
+                <br>
+                Internationally acclaimed quality makes UPVC sliding doors and windows are the first
+                <br>
+                choice for most Indians.
+            </li>
+            <li>
+                <strong>&nbsp;Energy Efficient</strong>
+                <br>
+                The thermal insulation UPVC window and doors prevents heat or cool air from escaping
+                <br>
+                or entering the room, ultimately reducing the dependency on heaters and air
+                <br>
+                conditioners in winter and summer, respectively.
+            </li>
+            <li>
+                <strong>Highly Durable</strong>
+                <br>
+                The high-precise installation of our uPVC sliding doors and windows keeps dust, dirt and
+                <br>
+                water from entering the house to provide comfort in all seasons.
+            </li>
+            <li>
+                <strong>Value for Money</strong>
+            </li>
+        </ul>
+        <p style="margin-left:40px;">
+            UPVC.expert offers the most reasonable prices for all your doors and windows
+            <br>
+            requirements with unique and aesthetic designs.
+        </p>`,
         },
     ],
 };
@@ -1221,37 +1582,43 @@ export const durabilitySafetyConst = {
 export const howItWorks = [
     {
         type: 1,
-        name: "Consultation",
+        name: "Appointment & Discussion",
         img: "howItWorks/consultation.svg",
         description: "",
     },
     {
         type: 2,
-        name: "Design With Experts",
+        name: "Custom-made Design",
         img: "howItWorks/reviewOurWork.svg",
         description: "",
     },
     {
         type: 3,
-        name: "Book With Us",
+        name: "Inspection (Final Measurement & Discussion)",
         img: "howItWorks/placeTheOrder.svg",
         description: "",
     },
     {
         type: 4,
-        name: "Receive Designs",
+        name: "To Manufacture & Process",
         img: "howItWorks/design.svg",
         description: "",
     },
     {
         type: 5,
-        name: "Execution and tracking",
+        name: "Installation & Delivery",
         img: "howItWorks/executionAndTracking.svg",
         description: "",
     },
     {
         type: 6,
-        name: "Move-in",
+        name: "Cleaning & Handover",
+        img: "howItWorks/moveIn.svg",
+        description: "",
+    },
+    {
+        type: 7,
+        name: "Customer Support & After Sales Service",
         img: "howItWorks/moveIn.svg",
         description: "",
     },
