@@ -42,8 +42,8 @@ const Types = ({ onSelectPackage, data, aboutUsContent }) => {
                         expandContent: data[active]?.expandContent,
                     }} />
                     <AvailableDesign data={data[active].availableDesign.data} title={data[active].availableDesign.title} />
-                    <RecommendedFor />
-                    <FeatureBenefit desc={data[active].featuresBenefits.desc} />
+                    <RecommendedFor title={data[active].recommendedFor.title} data={data[active].recommendedFor.data} />
+                    <FeatureBenefit desc={data[active].featuresBenefits.desc} data={data[active].featuresBenefits.data} />
                     <ExpandAccordian data={{ title: data[active]?.aboutUsContent?.title, content: data[active]?.aboutUsContent.content, expandContent: data[active]?.aboutUsContent.expandContent }} />
                 </div>
             </div>

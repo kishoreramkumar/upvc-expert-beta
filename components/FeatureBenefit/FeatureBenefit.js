@@ -25,13 +25,13 @@ const settings = {
     ],
 };
 
-const FeatureBenefit = ({ title = "Features & Benefits", desc }) => {
+const FeatureBenefit = ({ title = "Features & Benefits", desc, data }) => {
     return (
         <div className={styles.sliderWrapperFeatureBenefit}>
             <h2 className={styles.title}>{title}</h2>
             <ExpandAccordian data={{ content: desc }} />
             <SliderWrapper {...settings}>
-                {recentProjectImages.map((el, index) => (
+                {data.map((el, index) => (
                     <div key={index}>
                         <RecentProjectCard image={el.image} title={el.title} />
                     </div>
@@ -47,9 +47,9 @@ const RecentProjectCard = ({ image, title }) => {
     return (
         <div className={styles.featureBenefitWrapper}>
             <div className={styles.recentCardImg}>
-                <img src={`https://d21xn5q7qjmco5.cloudfront.net/images/featurebenefit/icon/1633594654.png`} alt="proj" loading="lazy" />
+                <img src={image} alt="proj" loading="lazy" />
             </div>
-            <div className={styles.name}>LARGE OPENINGS AND AMPLE SUNLIGHT </div>
+            <div className={styles.name}>{title}</div>
         </div >
     );
 };

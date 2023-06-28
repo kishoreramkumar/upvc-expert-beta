@@ -99,7 +99,46 @@ export const productStylesDetails = {
                 title: "exclusive"
             }]
 
-        }
+        },
+        recommendedFor: {
+            title: "Recommended For",
+            data: [
+                {
+                    image: "recentProject/AnushaHouseElevationSqftExpert.jpg",
+                    title: "Anusha House Elevation",
+                },
+                {
+                    image: "recentProject/DeepikaHouseElevationSqftExpert.jpg",
+                    title: "Deepika House Elevation",
+                },
+                {
+                    image: "recentProject/SrinivasHomeElevationSqftExpert.jpg",
+                    title: "Srinivas Home Elevation",
+                },
+                {
+                    image: "recentProject/SushanthHouseElevationSqftExpert.jpg",
+                    title: "Sushanth House Elevation",
+                },
+            ]
+        },
+        featuresAndBenefitsList: [
+            {
+                image: `https://d21xn5q7qjmco5.cloudfront.net/images/featurebenefit/icon/1633594654.png`,
+                title: "Large opening and ample sunlight",
+            },
+            {
+                image: `https://d21xn5q7qjmco5.cloudfront.net/images/featurebenefit/icon/1633594654.png`,
+                title: "Large opening and ample sunlight",
+            },
+            {
+                image: `https://d21xn5q7qjmco5.cloudfront.net/images/featurebenefit/icon/1633594654.png`,
+                title: "Large opening and ample sunlight",
+            },
+            {
+                image: `https://d21xn5q7qjmco5.cloudfront.net/images/featurebenefit/icon/1633594654.png`,
+                title: "Large opening and ample sunlight",
+            },
+        ]
     }, {
         icon: "/assets/images/upvc/windows/CasementWindow.png",
         image: "/assets/images/upvc/windows/Images/Casement.jpg",
@@ -138,7 +177,46 @@ export const productStylesDetails = {
                 title: "exclusive"
             }]
 
-        }
+        },
+        recommendedFor: {
+            title: "Recommended For",
+            data: [
+                {
+                    image: "recentProject/AnushaHouseElevationSqftExpert.jpg",
+                    title: "Anusha House Elevation",
+                },
+                {
+                    image: "recentProject/DeepikaHouseElevationSqftExpert.jpg",
+                    title: "Deepika House Elevation",
+                },
+                {
+                    image: "recentProject/SrinivasHomeElevationSqftExpert.jpg",
+                    title: "Srinivas Home Elevation",
+                },
+                {
+                    image: "recentProject/SushanthHouseElevationSqftExpert.jpg",
+                    title: "Sushanth House Elevation",
+                },
+            ]
+        },
+        featuresAndBenefitsList: [
+            {
+                image: `https://d21xn5q7qjmco5.cloudfront.net/images/featurebenefit/icon/1633594654.png`,
+                title: "Large opening and ample sunlight",
+            },
+            {
+                image: `https://d21xn5q7qjmco5.cloudfront.net/images/featurebenefit/icon/1633594654.png`,
+                title: "Large opening and ample sunlight",
+            },
+            {
+                image: `https://d21xn5q7qjmco5.cloudfront.net/images/featurebenefit/icon/1633594654.png`,
+                title: "Large opening and ample sunlight",
+            },
+            {
+                image: `https://d21xn5q7qjmco5.cloudfront.net/images/featurebenefit/icon/1633594654.png`,
+                title: "Large opening and ample sunlight",
+            },
+        ]
     }
         , {
         icon: "/assets/images/upvc/windows/TiltTurnWindown.png",
@@ -178,7 +256,46 @@ export const productStylesDetails = {
                 title: "exclusive"
             }]
 
-        }
+        },
+        recommendedFor: {
+            title: "Recommended For",
+            data: [
+                {
+                    image: "recentProject/AnushaHouseElevationSqftExpert.jpg",
+                    title: "Anusha House Elevation",
+                },
+                {
+                    image: "recentProject/DeepikaHouseElevationSqftExpert.jpg",
+                    title: "Deepika House Elevation",
+                },
+                {
+                    image: "recentProject/SrinivasHomeElevationSqftExpert.jpg",
+                    title: "Srinivas Home Elevation",
+                },
+                {
+                    image: "recentProject/SushanthHouseElevationSqftExpert.jpg",
+                    title: "Sushanth House Elevation",
+                },
+            ]
+        },
+        featuresAndBenefitsList: [
+            {
+                image: `https://d21xn5q7qjmco5.cloudfront.net/images/featurebenefit/icon/1633594654.png`,
+                title: "Large opening and ample sunlight",
+            },
+            {
+                image: `https://d21xn5q7qjmco5.cloudfront.net/images/featurebenefit/icon/1633594654.png`,
+                title: "Large opening and ample sunlight",
+            },
+            {
+                image: `https://d21xn5q7qjmco5.cloudfront.net/images/featurebenefit/icon/1633594654.png`,
+                title: "Large opening and ample sunlight",
+            },
+            {
+                image: `https://d21xn5q7qjmco5.cloudfront.net/images/featurebenefit/icon/1633594654.png`,
+                title: "Large opening and ample sunlight",
+            },
+        ]
     }
         , {
         icon: "/assets/images/upvc/windows/CombinationWindow.png",
@@ -216,7 +333,46 @@ export const productStylesDetails = {
                 title: "exclusive"
             }]
 
-        }
+        },
+        recommendedFor: {
+            title: "Recommended For",
+            data: [
+                {
+                    image: "recentProject/AnushaHouseElevationSqftExpert.jpg",
+                    title: "Anusha House Elevation",
+                },
+                {
+                    image: "recentProject/DeepikaHouseElevationSqftExpert.jpg",
+                    title: "Deepika House Elevation",
+                },
+                {
+                    image: "recentProject/SrinivasHomeElevationSqftExpert.jpg",
+                    title: "Srinivas Home Elevation",
+                },
+                {
+                    image: "recentProject/SushanthHouseElevationSqftExpert.jpg",
+                    title: "Sushanth House Elevation",
+                },
+            ]
+        },
+        featuresAndBenefitsList: [
+            {
+                image: `https://d21xn5q7qjmco5.cloudfront.net/images/featurebenefit/icon/1633594654.png`,
+                title: "Large opening and ample sunlight",
+            },
+            {
+                image: `https://d21xn5q7qjmco5.cloudfront.net/images/featurebenefit/icon/1633594654.png`,
+                title: "Large opening and ample sunlight",
+            },
+            {
+                image: `https://d21xn5q7qjmco5.cloudfront.net/images/featurebenefit/icon/1633594654.png`,
+                title: "Large opening and ample sunlight",
+            },
+            {
+                image: `https://d21xn5q7qjmco5.cloudfront.net/images/featurebenefit/icon/1633594654.png`,
+                title: "Large opening and ample sunlight",
+            },
+        ]
     }, {
         icon: "/assets/images/upvc/windows/VillaWindow.png",
         image: "/assets/images/upvc/windows/Images/Villa.jpg",
@@ -253,7 +409,46 @@ export const productStylesDetails = {
                 title: "exclusive"
             }]
 
-        }
+        },
+        recommendedFor: {
+            title: "Recommended For",
+            data: [
+                {
+                    image: "recentProject/AnushaHouseElevationSqftExpert.jpg",
+                    title: "Anusha House Elevation",
+                },
+                {
+                    image: "recentProject/DeepikaHouseElevationSqftExpert.jpg",
+                    title: "Deepika House Elevation",
+                },
+                {
+                    image: "recentProject/SrinivasHomeElevationSqftExpert.jpg",
+                    title: "Srinivas Home Elevation",
+                },
+                {
+                    image: "recentProject/SushanthHouseElevationSqftExpert.jpg",
+                    title: "Sushanth House Elevation",
+                },
+            ]
+        },
+        featuresAndBenefitsList: [
+            {
+                image: `https://d21xn5q7qjmco5.cloudfront.net/images/featurebenefit/icon/1633594654.png`,
+                title: "Large opening and ample sunlight",
+            },
+            {
+                image: `https://d21xn5q7qjmco5.cloudfront.net/images/featurebenefit/icon/1633594654.png`,
+                title: "Large opening and ample sunlight",
+            },
+            {
+                image: `https://d21xn5q7qjmco5.cloudfront.net/images/featurebenefit/icon/1633594654.png`,
+                title: "Large opening and ample sunlight",
+            },
+            {
+                image: `https://d21xn5q7qjmco5.cloudfront.net/images/featurebenefit/icon/1633594654.png`,
+                title: "Large opening and ample sunlight",
+            },
+        ]
     }, {
         icon: "/assets/images/upvc/windows/BayWindow.png",
         image: "/assets/images/upvc/windows/Images/Bay.jpg",
@@ -292,7 +487,46 @@ export const productStylesDetails = {
                 title: "exclusive"
             }]
 
-        }
+        },
+        recommendedFor: {
+            title: "Recommended For",
+            data: [
+                {
+                    image: "recentProject/AnushaHouseElevationSqftExpert.jpg",
+                    title: "Anusha House Elevation",
+                },
+                {
+                    image: "recentProject/DeepikaHouseElevationSqftExpert.jpg",
+                    title: "Deepika House Elevation",
+                },
+                {
+                    image: "recentProject/SrinivasHomeElevationSqftExpert.jpg",
+                    title: "Srinivas Home Elevation",
+                },
+                {
+                    image: "recentProject/SushanthHouseElevationSqftExpert.jpg",
+                    title: "Sushanth House Elevation",
+                },
+            ]
+        },
+        featuresAndBenefitsList: [
+            {
+                image: `https://d21xn5q7qjmco5.cloudfront.net/images/featurebenefit/icon/1633594654.png`,
+                title: "Large opening and ample sunlight",
+            },
+            {
+                image: `https://d21xn5q7qjmco5.cloudfront.net/images/featurebenefit/icon/1633594654.png`,
+                title: "Large opening and ample sunlight",
+            },
+            {
+                image: `https://d21xn5q7qjmco5.cloudfront.net/images/featurebenefit/icon/1633594654.png`,
+                title: "Large opening and ample sunlight",
+            },
+            {
+                image: `https://d21xn5q7qjmco5.cloudfront.net/images/featurebenefit/icon/1633594654.png`,
+                title: "Large opening and ample sunlight",
+            },
+        ]
     }, {
         icon: "/assets/images/upvc/windows/FixedWindow.png",
         image: "/assets/images/upvc/windows/Images/Fixed.jpg",
@@ -330,7 +564,46 @@ export const productStylesDetails = {
                 title: "exclusive"
             }]
 
-        }
+        },
+        recommendedFor: {
+            title: "Recommended For",
+            data: [
+                {
+                    image: "recentProject/AnushaHouseElevationSqftExpert.jpg",
+                    title: "Anusha House Elevation",
+                },
+                {
+                    image: "recentProject/DeepikaHouseElevationSqftExpert.jpg",
+                    title: "Deepika House Elevation",
+                },
+                {
+                    image: "recentProject/SrinivasHomeElevationSqftExpert.jpg",
+                    title: "Srinivas Home Elevation",
+                },
+                {
+                    image: "recentProject/SushanthHouseElevationSqftExpert.jpg",
+                    title: "Sushanth House Elevation",
+                },
+            ]
+        },
+        featuresAndBenefitsList: [
+            {
+                image: `https://d21xn5q7qjmco5.cloudfront.net/images/featurebenefit/icon/1633594654.png`,
+                title: "Large opening and ample sunlight",
+            },
+            {
+                image: `https://d21xn5q7qjmco5.cloudfront.net/images/featurebenefit/icon/1633594654.png`,
+                title: "Large opening and ample sunlight",
+            },
+            {
+                image: `https://d21xn5q7qjmco5.cloudfront.net/images/featurebenefit/icon/1633594654.png`,
+                title: "Large opening and ample sunlight",
+            },
+            {
+                image: `https://d21xn5q7qjmco5.cloudfront.net/images/featurebenefit/icon/1633594654.png`,
+                title: "Large opening and ample sunlight",
+            },
+        ]
     }, {
         icon: "/assets/images/upvc/windows/GlasstoGlassWindow.png",
         image: "/assets/images/upvc/windows/Images/GlasstoGlass.jpg",
@@ -367,7 +640,46 @@ export const productStylesDetails = {
                 title: "exclusive"
             }]
 
-        }
+        },
+        recommendedFor: {
+            title: "Recommended For",
+            data: [
+                {
+                    image: "recentProject/AnushaHouseElevationSqftExpert.jpg",
+                    title: "Anusha House Elevation",
+                },
+                {
+                    image: "recentProject/DeepikaHouseElevationSqftExpert.jpg",
+                    title: "Deepika House Elevation",
+                },
+                {
+                    image: "recentProject/SrinivasHomeElevationSqftExpert.jpg",
+                    title: "Srinivas Home Elevation",
+                },
+                {
+                    image: "recentProject/SushanthHouseElevationSqftExpert.jpg",
+                    title: "Sushanth House Elevation",
+                },
+            ]
+        },
+        featuresAndBenefitsList: [
+            {
+                image: `https://d21xn5q7qjmco5.cloudfront.net/images/featurebenefit/icon/1633594654.png`,
+                title: "Large opening and ample sunlight",
+            },
+            {
+                image: `https://d21xn5q7qjmco5.cloudfront.net/images/featurebenefit/icon/1633594654.png`,
+                title: "Large opening and ample sunlight",
+            },
+            {
+                image: `https://d21xn5q7qjmco5.cloudfront.net/images/featurebenefit/icon/1633594654.png`,
+                title: "Large opening and ample sunlight",
+            },
+            {
+                image: `https://d21xn5q7qjmco5.cloudfront.net/images/featurebenefit/icon/1633594654.png`,
+                title: "Large opening and ample sunlight",
+            },
+        ]
     }
     ]
 };

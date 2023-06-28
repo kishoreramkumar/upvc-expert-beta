@@ -74,8 +74,8 @@ export default function Home() {
                         expandContent: productStyle.expandContent,
                         aboutUsContent: productStyle.aboutUsContent,
                         availableDesign: productStyle.availableDesign,
-                        recommendedFor: {}, about: {}, featuresBenefits: {
-                            desc: productStyle.featuresAndBenefits
+                        recommendedFor: productStyle.recommendedFor, about: {}, featuresBenefits: {
+                            desc: productStyle.featuresAndBenefits, data: productStyle.featuresAndBenefitsList
                         }
                     }
                 })

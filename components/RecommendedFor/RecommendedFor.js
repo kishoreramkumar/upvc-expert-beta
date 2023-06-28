@@ -1,8 +1,6 @@
 import styles from "./RecommendedFor.module.scss";
 import SectionTitle from "../SectionTitle/SectionTitle";
 import "slick-carousel/slick/slick.css";
-// import 'slick-carousel/slick/slick-theme.css';
-import { recentProjectImages } from "../../constants/constants";
 import SliderWrapper from "../Slider/Slider.index";
 
 const settings = {
@@ -24,12 +22,12 @@ const settings = {
     ],
 };
 
-const RecommendedFor = ({ title = "Sqft.Expert Projects" }) => {
+const RecommendedFor = ({ title = "Sqft.Expert Projects", data }) => {
     return (
         <div className={styles.sliderWrapperRecommendedFor}>
             <h2>Recommended For</h2>
             <SliderWrapper {...settings}>
-                {recentProjectImages.map((el, index) => (
+                {data.map((el, index) => (
                     <div key={index}>
                         <RecentProjectCard image={el.image} title={el.title} />
                     </div>
