@@ -73,20 +73,8 @@ export default function Home() {
                         desc: productStyle.desc,
                         expandContent: productStyle.expandContent,
                         aboutUsContent: productStyle.aboutUsContent,
-                        availableDesign: {
-                            title: "Available Design",
-                            data: [{
-                                image: "https://d21xn5q7qjmco5.cloudfront.net/images/doortype/0-20210817165745.jpg",
-                                title: "exclusive"
-                            }, {
-                                image: "https://d21xn5q7qjmco5.cloudfront.net/images/doortype/0-20210817165745.jpg",
-                                title: "exclusive"
-                            }, {
-                                image: "https://d21xn5q7qjmco5.cloudfront.net/images/doortype/0-20210817165745.jpg",
-                                title: "exclusive"
-                            }]
-
-                        }, recommendedFor: {}, about: {}, featuresBenefits: {
+                        availableDesign: productStyle.availableDesign,
+                        recommendedFor: {}, about: {}, featuresBenefits: {
                             desc: productStyle.featuresAndBenefits
                         }
                     }

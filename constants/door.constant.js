@@ -87,6 +87,20 @@ export const productStylesDetails = {
             chamber lock system, and with a double-toughened glass that keeps the heat and
             sound at bay.`,
             expandContent: ""
+        },
+        availableDesign: {
+            title: "Available Design",
+            data: [{
+                image: "https://d21xn5q7qjmco5.cloudfront.net/images/doortype/0-20210817165745.jpg",
+                title: "exclusive"
+            }, {
+                image: "https://d21xn5q7qjmco5.cloudfront.net/images/doortype/0-20210817165745.jpg",
+                title: "exclusive"
+            }, {
+                image: "https://d21xn5q7qjmco5.cloudfront.net/images/doortype/0-20210817165745.jpg",
+                title: "exclusive"
+            }]
+
         }
     }, {
         icon: "/assets/images/upvc/windows/CasementWindow.png",
@@ -113,6 +127,20 @@ export const productStylesDetails = {
             new generation UPVC Casement doors are designed for large openings and come
             in numerous colours and designs catering to individual preferences.`,
             expandContent: ""
+        },
+        availableDesign: {
+            title: "Available Design",
+            data: [{
+                image: "https://d21xn5q7qjmco5.cloudfront.net/images/doortype/0-20210817165745.jpg",
+                title: "exclusive"
+            }, {
+                image: "https://d21xn5q7qjmco5.cloudfront.net/images/doortype/0-20210817165745.jpg",
+                title: "exclusive"
+            }, {
+                image: "https://d21xn5q7qjmco5.cloudfront.net/images/doortype/0-20210817165745.jpg",
+                title: "exclusive"
+            }]
+
         }
     }
         , {
@@ -141,6 +169,20 @@ export const productStylesDetails = {
             stunning and a contemporary environment. This sleek sliding and folding doors
             allows more usable space in the room as compared to conventional door designs.`,
             expandContent: ""
+        },
+        availableDesign: {
+            title: "Available Design",
+            data: [{
+                image: "https://d21xn5q7qjmco5.cloudfront.net/images/doortype/0-20210817165745.jpg",
+                title: "exclusive"
+            }, {
+                image: "https://d21xn5q7qjmco5.cloudfront.net/images/doortype/0-20210817165745.jpg",
+                title: "exclusive"
+            }, {
+                image: "https://d21xn5q7qjmco5.cloudfront.net/images/doortype/0-20210817165745.jpg",
+                title: "exclusive"
+            }]
+
         }
     }
         , {
@@ -171,6 +213,20 @@ export const productStylesDetails = {
             durable, and weather resistant make this Lift & Slide UPVC doors the most
             preferred choice for homeowners.`,
             expandContent: ""
+        },
+        availableDesign: {
+            title: "Available Design",
+            data: [{
+                image: "https://d21xn5q7qjmco5.cloudfront.net/images/doortype/0-20210817165745.jpg",
+                title: "exclusive"
+            }, {
+                image: "https://d21xn5q7qjmco5.cloudfront.net/images/doortype/0-20210817165745.jpg",
+                title: "exclusive"
+            }, {
+                image: "https://d21xn5q7qjmco5.cloudfront.net/images/doortype/0-20210817165745.jpg",
+                title: "exclusive"
+            }]
+
         }
     }, {
         icon: "/assets/images/upvc/windows/VillaWindow.png",
@@ -196,6 +252,20 @@ export const productStylesDetails = {
             cost of our UPVC corner slider doors is more than justified as we promise to offer
             you only the best.`,
             expandContent: ""
+        },
+        availableDesign: {
+            title: "Available Design",
+            data: [{
+                image: "https://d21xn5q7qjmco5.cloudfront.net/images/doortype/0-20210817165745.jpg",
+                title: "exclusive"
+            }, {
+                image: "https://d21xn5q7qjmco5.cloudfront.net/images/doortype/0-20210817165745.jpg",
+                title: "exclusive"
+            }, {
+                image: "https://d21xn5q7qjmco5.cloudfront.net/images/doortype/0-20210817165745.jpg",
+                title: "exclusive"
+            }]
+
         }
     }, {
         icon: "/assets/images/upvc/windows/BayWindow.png",
@@ -221,6 +291,20 @@ export const productStylesDetails = {
             of people. Some of the main features include high-level of security, adequate
             ventilation, and weather resistant.`,
             expandContent: ""
+        },
+        availableDesign: {
+            title: "Available Design",
+            data: [{
+                image: "https://d21xn5q7qjmco5.cloudfront.net/images/doortype/0-20210817165745.jpg",
+                title: "exclusive"
+            }, {
+                image: "https://d21xn5q7qjmco5.cloudfront.net/images/doortype/0-20210817165745.jpg",
+                title: "exclusive"
+            }, {
+                image: "https://d21xn5q7qjmco5.cloudfront.net/images/doortype/0-20210817165745.jpg",
+                title: "exclusive"
+            }]
+
         }
     }, {
         icon: "/assets/images/upvc/windows/FixedWindow.png",
@@ -248,6 +332,20 @@ export const productStylesDetails = {
             with features like high energy efficiency, durability, noise insulation, termite-free,
             and do not warp, fade, or flake.`,
             expandContent: ""
+        },
+        availableDesign: {
+            title: "Available Design",
+            data: [{
+                image: "https://d21xn5q7qjmco5.cloudfront.net/images/doortype/0-20210817165745.jpg",
+                title: "exclusive"
+            }, {
+                image: "https://d21xn5q7qjmco5.cloudfront.net/images/doortype/0-20210817165745.jpg",
+                title: "exclusive"
+            }, {
+                image: "https://d21xn5q7qjmco5.cloudfront.net/images/doortype/0-20210817165745.jpg",
+                title: "exclusive"
+            }]
+
         }
     },
     ]

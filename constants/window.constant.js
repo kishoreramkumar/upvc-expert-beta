@@ -85,6 +85,20 @@ export const productStylesDetails = {
             also offer various colours and design options so that you get to choose the
             windows as per your style, decor, and colour of your room.`,
             expandContent: ""
+        },
+        availableDesign: {
+            title: "Available Design",
+            data: [{
+                image: "https://d21xn5q7qjmco5.cloudfront.net/images/doortype/0-20210817165745.jpg",
+                title: "exclusive"
+            }, {
+                image: "https://d21xn5q7qjmco5.cloudfront.net/images/doortype/0-20210817165745.jpg",
+                title: "exclusive"
+            }, {
+                image: "https://d21xn5q7qjmco5.cloudfront.net/images/doortype/0-20210817165745.jpg",
+                title: "exclusive"
+            }]
+
         }
     }, {
         icon: "/assets/images/upvc/windows/CasementWindow.png",
@@ -110,6 +124,20 @@ export const productStylesDetails = {
             ventilation and are highly energy-efficient. They come in wide variety of designs,
             which offers a range of choices to suit ones preferences.`,
             expandContent: ""
+        },
+        availableDesign: {
+            title: "Available Design",
+            data: [{
+                image: "https://d21xn5q7qjmco5.cloudfront.net/images/doortype/0-20210817165745.jpg",
+                title: "exclusive"
+            }, {
+                image: "https://d21xn5q7qjmco5.cloudfront.net/images/doortype/0-20210817165745.jpg",
+                title: "exclusive"
+            }, {
+                image: "https://d21xn5q7qjmco5.cloudfront.net/images/doortype/0-20210817165745.jpg",
+                title: "exclusive"
+            }]
+
         }
     }
         , {
@@ -136,6 +164,20 @@ export const productStylesDetails = {
             provide elegance and sophistication to any living space. With state-of-art design,
             these windows assure aesthetically window style that is truly appealing.`,
             expandContent: ""
+        },
+        availableDesign: {
+            title: "Available Design",
+            data: [{
+                image: "https://d21xn5q7qjmco5.cloudfront.net/images/doortype/0-20210817165745.jpg",
+                title: "exclusive"
+            }, {
+                image: "https://d21xn5q7qjmco5.cloudfront.net/images/doortype/0-20210817165745.jpg",
+                title: "exclusive"
+            }, {
+                image: "https://d21xn5q7qjmco5.cloudfront.net/images/doortype/0-20210817165745.jpg",
+                title: "exclusive"
+            }]
+
         }
     }
         , {
@@ -160,6 +202,20 @@ export const productStylesDetails = {
             and preferences. The windows will improve the appearance of your living spaces
             for sure.`,
             expandContent: ""
+        },
+        availableDesign: {
+            title: "Available Design",
+            data: [{
+                image: "https://d21xn5q7qjmco5.cloudfront.net/images/doortype/0-20210817165745.jpg",
+                title: "exclusive"
+            }, {
+                image: "https://d21xn5q7qjmco5.cloudfront.net/images/doortype/0-20210817165745.jpg",
+                title: "exclusive"
+            }, {
+                image: "https://d21xn5q7qjmco5.cloudfront.net/images/doortype/0-20210817165745.jpg",
+                title: "exclusive"
+            }]
+
         }
     }, {
         icon: "/assets/images/upvc/windows/VillaWindow.png",
@@ -183,6 +239,20 @@ export const productStylesDetails = {
             give additional safety against thefts. Villa UPVC windows are energy-efficient and
             are very appealing too.`,
             expandContent: ""
+        },
+        availableDesign: {
+            title: "Available Design",
+            data: [{
+                image: "https://d21xn5q7qjmco5.cloudfront.net/images/doortype/0-20210817165745.jpg",
+                title: "exclusive"
+            }, {
+                image: "https://d21xn5q7qjmco5.cloudfront.net/images/doortype/0-20210817165745.jpg",
+                title: "exclusive"
+            }, {
+                image: "https://d21xn5q7qjmco5.cloudfront.net/images/doortype/0-20210817165745.jpg",
+                title: "exclusive"
+            }]
+
         }
     }, {
         icon: "/assets/images/upvc/windows/BayWindow.png",
@@ -208,6 +278,20 @@ export const productStylesDetails = {
             Windows are sufficient to spruce one’s home. You will run short of ideas for
             choice when it comes to deciding which one to opt for.`,
             expandContent: ""
+        },
+        availableDesign: {
+            title: "Available Design",
+            data: [{
+                image: "https://d21xn5q7qjmco5.cloudfront.net/images/doortype/0-20210817165745.jpg",
+                title: "exclusive"
+            }, {
+                image: "https://d21xn5q7qjmco5.cloudfront.net/images/doortype/0-20210817165745.jpg",
+                title: "exclusive"
+            }, {
+                image: "https://d21xn5q7qjmco5.cloudfront.net/images/doortype/0-20210817165745.jpg",
+                title: "exclusive"
+            }]
+
         }
     }, {
         icon: "/assets/images/upvc/windows/FixedWindow.png",
@@ -232,6 +316,20 @@ export const productStylesDetails = {
             unhindered view of the outside world. Fixed UPVC windows also bring about an
             aesthetic appeal to your homes.`,
             expandContent: ""
+        },
+        availableDesign: {
+            title: "Available Design",
+            data: [{
+                image: "https://d21xn5q7qjmco5.cloudfront.net/images/doortype/0-20210817165745.jpg",
+                title: "exclusive"
+            }, {
+                image: "https://d21xn5q7qjmco5.cloudfront.net/images/doortype/0-20210817165745.jpg",
+                title: "exclusive"
+            }, {
+                image: "https://d21xn5q7qjmco5.cloudfront.net/images/doortype/0-20210817165745.jpg",
+                title: "exclusive"
+            }]
+
         }
     }, {
         icon: "/assets/images/upvc/windows/GlasstoGlassWindow.png",
@@ -255,6 +353,20 @@ export const productStylesDetails = {
             more. The UPVC windows do not rust, corrode, or rot due to passage of time.
             They require less maintenance that helps them look good as new for many years.`,
             expandContent: ""
+        },
+        availableDesign: {
+            title: "Available Design",
+            data: [{
+                image: "https://d21xn5q7qjmco5.cloudfront.net/images/doortype/0-20210817165745.jpg",
+                title: "exclusive"
+            }, {
+                image: "https://d21xn5q7qjmco5.cloudfront.net/images/doortype/0-20210817165745.jpg",
+                title: "exclusive"
+            }, {
+                image: "https://d21xn5q7qjmco5.cloudfront.net/images/doortype/0-20210817165745.jpg",
+                title: "exclusive"
+            }]
+
         }
     }
     ]
